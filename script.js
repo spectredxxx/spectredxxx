@@ -163,10 +163,6 @@ function renderCard(item, index) {
         ? `<img src="${iconSrc}" alt="${item.name}" class="card-icon-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><span class="card-icon-fallback" style="display:none">${getFallbackEmoji(item.url)}</span>`
         : iconSrc;
 
-    const previewIconHtml = iconType === 'image'
-        ? `<img src="${iconSrc}" alt="${item.name}" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>'">`
-        : iconSrc;
-
     return `
         <div class="collection-card glass glass-shine"
              data-url="${item.url}"
@@ -196,29 +192,6 @@ function renderCard(item, index) {
                     </button>
                 </div>
             </div>
-            <!-- 预览弹层 -->
-            <div class="card-preview">
-                <div class="preview-iframe">
-                    <img src="https://image.thum.io/get/width/1200/crop/800/${item.url}"
-                         alt="${item.name} 预览"
-                         loading="lazy"
-                         onload="this.parentElement.classList.add('loaded')"
-                         onerror="this.parentElement.classList.add('error')">
-                    <div class="preview-loading">
-                        <div class="spinner"></div>
-                        <span>加载预览...</span>
-                    </div>
-                    <div class="preview-error">
-                        <div class="error-icon">🖼️</div>
-                        <span>预览加载失败</span>
-                        <a href="${item.url}" target="_blank" class="preview-btn">访问网站</a>
-                    </div>
-                </div>
-                <div class="preview-info">
-                    <div class="preview-title">${item.name}</div>
-                    <div class="preview-url">${item.url}</div>
-                </div>
-            </div>
         </div>
     `;
 }
@@ -242,7 +215,7 @@ function getFallbackEmoji(url) {
                 return emoji;
             }
         }
-    } catch (e) {}
+    } catch (e) { }
     return '🔖';
 }
 
@@ -261,11 +234,6 @@ function bindCardEvents() {
             const url = card.dataset.url;
             window.open(url, '_blank');
         });
-
-        // 鼠标悬浮时调整预览窗口位置
-        card.addEventListener('mouseenter', () => {
-            adjustPreviewPosition(card);
-        });
     });
 
     // 操作按钮
@@ -282,43 +250,7 @@ function bindCardEvents() {
     });
 }
 
-// ===== 调整预览窗口位置（边界检测）=====
-function adjustPreviewPosition(card) {
-    const preview = card.querySelector('.card-preview');
-    if (!preview) return;
 
-    const cardRect = card.getBoundingClientRect();
-    const previewWidth = 700;
-    const previewHeight = 460; // 预览窗口高度 + info 高度
-    const viewportWidth = window.innerWidth;
-    const viewportHeight = window.innerHeight;
-    const padding = 20;
-
-    // 重置所有位置类
-    preview.classList.remove('show-below', 'align-left', 'align-right');
-
-    // 检测垂直方向
-    const spaceAbove = cardRect.top;
-    const spaceBelow = viewportHeight - cardRect.bottom;
-
-    if (spaceAbove < previewHeight + padding && spaceBelow > spaceAbove) {
-        // 上方空间不足，下方更宽裕，向下显示
-        preview.classList.add('show-below');
-    }
-
-    // 检测水平方向
-    const cardCenterX = cardRect.left + cardRect.width / 2;
-    const spaceLeft = cardCenterX;
-    const spaceRight = viewportWidth - cardCenterX;
-
-    if (spaceLeft < previewWidth / 2 + padding) {
-        // 左侧空间不足，左对齐
-        preview.classList.add('align-left');
-    } else if (spaceRight < previewWidth / 2 + padding) {
-        // 右侧空间不足，右对齐
-        preview.classList.add('align-right');
-    }
-}
 
 async function copyToClipboard(text, btn) {
     try {

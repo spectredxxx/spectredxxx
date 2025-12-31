@@ -105,9 +105,19 @@ body {
 }
 
 @keyframes float {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    33% { transform: translate(30px, -30px) scale(1.05); }
-    66% { transform: translate(-20px, 20px) scale(0.95); }
+
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    33% {
+        transform: translate(30px, -30px) scale(1.05);
+    }
+
+    66% {
+        transform: translate(-20px, 20px) scale(0.95);
+    }
 }
 
 .floating-orb {
@@ -144,8 +154,17 @@ body {
 }
 
 @keyframes orbFloat {
-    0%, 100% { transform: translate(0, 0); opacity: 0.6; }
-    50% { transform: translate(50px, -50px); opacity: 1; }
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: translate(50px, -50px);
+        opacity: 1;
+    }
 }
 
 /* ===== 主容器 ===== */
@@ -366,6 +385,7 @@ body {
         opacity: 0;
         transform: translateY(24px) scale(0.96);
     }
+
     to {
         opacity: 1;
         transform: translateY(0) scale(1);
@@ -511,265 +531,7 @@ body {
     height: 18px;
 }
 
-/* ===== 预览弹层 ===== */
-.collection-card {
-    z-index: 1;
-}
 
-.collection-card:hover {
-    z-index: 10;
-}
-
-.card-preview {
-    position: absolute;
-    bottom: calc(100% + 16px);
-    left: 50%;
-    transform: translateX(-50%) translateY(8px);
-    width: 700px;
-    max-width: calc(100vw - 40px);
-    border-radius: var(--radius-lg);
-    background: rgba(18, 18, 26, 0.98);
-    backdrop-filter: blur(24px);
-    border: 1px solid var(--border-card);
-    box-shadow: 0 32px 80px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.05);
-    opacity: 0;
-    visibility: hidden;
-    transition: var(--transition-smooth);
-    z-index: 100;
-    pointer-events: auto;
-    overflow: hidden;
-}
-
-/* 向上显示时的箭头（默认） */
-.card-preview::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
-    width: 16px;
-    height: 16px;
-    background: rgba(18, 18, 26, 0.98);
-    border-bottom: 1px solid var(--border-card);
-    border-right: 1px solid var(--border-card);
-}
-
-/* 向下显示时 */
-.card-preview.show-below {
-    bottom: auto;
-    top: calc(100% + 16px);
-    transform: translateX(-50%) translateY(-8px);
-}
-
-.card-preview.show-below::after {
-    bottom: auto;
-    top: -8px;
-    border-bottom: none;
-    border-right: none;
-    border-top: 1px solid var(--border-card);
-    border-left: 1px solid var(--border-card);
-}
-
-.collection-card:hover .card-preview {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(-50%) translateY(0);
-}
-
-.collection-card:hover .card-preview.show-below {
-    transform: translateX(-50%) translateY(0);
-}
-
-/* 左对齐 */
-.card-preview.align-left {
-    left: 0;
-    transform: translateX(0) translateY(8px);
-}
-
-.card-preview.align-left::after {
-    left: 40px;
-    transform: translateX(0) rotate(45deg);
-}
-
-.collection-card:hover .card-preview.align-left {
-    transform: translateX(0) translateY(0);
-}
-
-/* 右对齐 */
-.card-preview.align-right {
-    left: auto;
-    right: 0;
-    transform: translateX(0) translateY(8px);
-}
-
-.card-preview.align-right::after {
-    left: auto;
-    right: 40px;
-    transform: translateX(0) rotate(45deg);
-}
-
-.collection-card:hover .card-preview.align-right {
-    transform: translateX(0) translateY(0);
-}
-
-/* 向下 + 左对齐 */
-.card-preview.show-below.align-left::after {
-    bottom: auto;
-    top: -8px;
-    border-bottom: none;
-    border-right: none;
-    border-top: 1px solid var(--border-card);
-    border-left: 1px solid var(--border-card);
-}
-
-/* 向下 + 右对齐 */
-.card-preview.show-below.align-right::after {
-    bottom: auto;
-    top: -8px;
-    border-bottom: none;
-    border-right: none;
-    border-top: 1px solid var(--border-card);
-    border-left: 1px solid var(--border-card);
-}
-
-.preview-iframe {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    background: var(--bg-secondary);
-    border-radius: var(--radius-md) var(--radius-md) 0 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-    scrollbar-width: thin;
-    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
-}
-
-.preview-iframe::-webkit-scrollbar {
-    width: 6px;
-}
-
-.preview-iframe::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 3px;
-}
-
-.preview-iframe img {
-    width: 100%;
-    height: auto;
-    display: block;
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    min-height: 200px;
-}
-
-.preview-iframe.loaded img {
-    opacity: 1;
-}
-
-.preview-loading {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    background: var(--bg-secondary);
-    z-index: 1;
-    transition: opacity 0.3s ease;
-}
-
-.preview-iframe.loaded .preview-loading {
-    opacity: 0;
-    pointer-events: none;
-}
-
-.spinner {
-    width: 28px;
-    height: 28px;
-    border: 3px solid rgba(139, 92, 246, 0.2);
-    border-top-color: #8b5cf6;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-}
-
-@keyframes spin {
-    to { transform: rotate(360deg); }
-}
-
-.preview-loading span {
-    color: var(--text-muted);
-    font-size: 13px;
-}
-
-.preview-error {
-    position: absolute;
-    inset: 0;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    background: var(--bg-secondary);
-    padding: 20px;
-    z-index: 2;
-}
-
-.preview-iframe.error .preview-loading {
-    display: none;
-}
-
-.preview-iframe.error .preview-error {
-    display: flex;
-}
-
-.error-icon {
-    font-size: 32px;
-}
-
-.preview-error span {
-    color: var(--text-muted);
-    font-size: 13px;
-    margin-bottom: 8px;
-}
-
-.preview-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 10px 20px;
-    border-radius: var(--radius-full);
-    background: var(--accent-gradient);
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 500;
-    transition: var(--transition);
-}
-
-.preview-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 20px var(--accent-glow);
-}
-
-.preview-info {
-    padding: 16px 20px;
-}
-
-.preview-title {
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 4px;
-}
-
-.preview-url {
-    font-size: 12px;
-    color: var(--text-muted);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 
 /* ===== 空状态 ===== */
 .empty-state {
