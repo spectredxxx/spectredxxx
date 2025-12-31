@@ -1,0 +1,352 @@
+{
+  "collections": [
+    {
+      "category": "AI 编程",
+      "icon": "🧑‍💻",
+      "items": [
+        {
+          "name": "Claude Code",
+          "url": "https://claude.com/product/claude-code",
+          "desc": "Anthropic 推出的 AI 编程助手，智能代码补全与重构",
+          "icon": "",
+          "tags": ["AI", "编程", "IDE"],
+          "favorite": true
+        },
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com",
+          "desc": "AI 原生代码编辑器，基于 VS Code 深度集成 AI 能力",
+          "icon": "",
+          "tags": ["AI", "编辑器", "IDE"],
+          "favorite": true
+        },
+        {
+          "name": "Windsurf",
+          "url": "https://windsurf.com",
+          "desc": "Codeium 推出的 AI IDE，智能协作编程环境",
+          "icon": "",
+          "tags": ["AI", "IDE", "编辑器"],
+          "favorite": true
+        },
+        {
+          "name": "OpenAI Codex",
+          "url": "https://openai.com/codex",
+          "desc": "OpenAI 的代码生成模型， powering GitHub Copilot",
+          "icon": "",
+          "tags": ["AI", "代码生成", "OpenAI"],
+          "favorite": false
+        },
+        {
+          "name": "Zed",
+          "url": "https://zed.dev",
+          "desc": "高性能协作代码编辑器，原生支持 AI 助手",
+          "icon": "",
+          "tags": ["编辑器", "协作", "性能"],
+          "favorite": true
+        },
+        {
+          "name": "Zcode AI",
+          "url": "https://zcode-ai.com",
+          "desc": "智能代码生成与补全工具",
+          "icon": "",
+          "tags": ["AI", "代码生成"],
+          "favorite": false
+        },
+        {
+          "name": "Antigravity",
+          "url": "https://antigravity.google",
+          "desc": "Google AI 实验室，探索前沿 AI 技术与项目",
+          "icon": "",
+          "tags": ["Google", "AI", "实验"],
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "category": "AI 工具",
+      "icon": "🤖",
+      "items": [
+        {
+          "name": "ChatGPT",
+          "url": "https://chat.openai.com",
+          "desc": "OpenAI 的 AI 对话助手",
+          "icon": "",
+          "tags": ["AI", "聊天"],
+          "favorite": true
+        },
+        {
+          "name": "Claude",
+          "url": "https://claude.ai",
+          "desc": "Anthropic 的 AI 助手",
+          "icon": "",
+          "tags": ["AI", "助手"],
+          "favorite": true
+        },
+        {
+          "name": "Chroma",
+          "url": "https://www.trychroma.com",
+          "desc": "AI 数据库，专为向量存储和检索优化",
+          "icon": "",
+          "tags": ["AI", "数据库", "向量"],
+          "favorite": false
+        },
+        {
+          "name": "LangChain",
+          "url": "https://www.langchain.com",
+          "desc": "构建 LLM 应用的开发框架",
+          "icon": "",
+          "tags": ["AI", "框架", "LLM"],
+          "favorite": true
+        },
+        {
+          "name": "MiniMax",
+          "url": "https://www.minimax.io",
+          "desc": "中国 AI 大模型平台，提供文本、语音、图像生成能力",
+          "icon": "",
+          "tags": ["AI", "大模型", "国产"],
+          "favorite": false
+        },
+        {
+          "name": "Models.dev",
+          "url": "https://models.dev",
+          "desc": "AI 模型发现与比较平台",
+          "icon": "",
+          "tags": ["AI", "模型", "工具"],
+          "favorite": false
+        },
+        {
+          "name": "OpenWebUI",
+          "url": "https://openwebui.com",
+          "desc": "自托管 LLM Web UI，兼容 OpenAI API",
+          "icon": "",
+          "tags": ["AI", "开源", "界面"],
+          "favorite": true
+        },
+        {
+          "name": "DeepWiki",
+          "url": "https://deepwiki.com",
+          "desc": "AI 知识百科，探索 AI 概念与术语",
+          "icon": "",
+          "tags": ["AI", "知识库", "学习"],
+          "favorite": false
+        },
+        {
+          "name": "Zread",
+          "url": "https://zread.ai",
+          "desc": "AI 驱动的阅读助手，智能摘要与问答",
+          "icon": "",
+          "tags": ["AI", "阅读", "工具"],
+          "favorite": false
+        },
+        {
+          "name": "Manus",
+          "url": "https://manus.im",
+          "desc": "AI 写作助手，智能内容生成",
+          "icon": "",
+          "tags": ["AI", "写作", "内容"],
+          "favorite": false
+        },
+        {
+          "name": "智谱 AI",
+          "url": "https://bigmodel.cn",
+          "desc": "清华系 AI 公司，提供 GLM 大模型服务",
+          "icon": "",
+          "tags": ["AI", "大模型", "国产"],
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "category": "开发工具",
+      "icon": "⚡",
+      "items": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com",
+          "desc": "全球最大的代码托管平台",
+          "icon": "",
+          "tags": ["代码", "开源"],
+          "favorite": true
+        },
+        {
+          "name": "Docker",
+          "url": "https://www.docker.com",
+          "desc": "容器化平台，简化应用部署与管理",
+          "icon": "",
+          "tags": ["容器", "DevOps", "部署"],
+          "favorite": true
+        },
+        {
+          "name": "Supabase",
+          "url": "https://supabase.com",
+          "desc": "开源 Firebase 替代方案，后端即服务",
+          "icon": "",
+          "tags": ["后端", "数据库", "开源"],
+          "favorite": true
+        },
+        {
+          "name": "Warp",
+          "url": "https://www.warp.dev",
+          "desc": "下一代终端，AI 驱动的命令行工具",
+          "icon": "",
+          "tags": ["终端", "CLI", "AI"],
+          "favorite": true
+        },
+        {
+          "name": "Termius",
+          "url": "https://termius.com",
+          "desc": "跨平台 SSH 客户端，安全的远程连接",
+          "icon": "",
+          "tags": ["SSH", "终端", "远程"],
+          "favorite": false
+        },
+        {
+          "name": "Prefect",
+          "url": "https://www.prefect.io",
+          "desc": "Python 工作流编排框架，数据管道管理",
+          "icon": "",
+          "tags": ["Python", "工作流", "数据"],
+          "favorite": false
+        },
+        {
+          "name": "Temporal",
+          "url": "https://temporal.io",
+          "desc": "分布式工作流引擎，可靠的长进程编排",
+          "icon": "",
+          "tags": ["工作流", "分布式", "后端"],
+          "favorite": false
+        },
+        {
+          "name": "Stack Overflow",
+          "url": "https://stackoverflow.com",
+          "desc": "开发者问答社区",
+          "icon": "",
+          "tags": ["问答", "学习"],
+          "favorite": false
+        },
+        {
+          "name": "MDN Web Docs",
+          "url": "https://developer.mozilla.org",
+          "desc": "Web 开发技术权威文档",
+          "icon": "",
+          "tags": ["文档", "学习"],
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "category": "框架与平台",
+      "icon": "📦",
+      "items": [
+        {
+          "name": "FastAPI",
+          "url": "https://fastapi.tiangolo.com",
+          "desc": "现代 Python Web 框架，高性能异步 API",
+          "icon": "",
+          "tags": ["Python", "Web", "API"],
+          "favorite": true
+        },
+        {
+          "name": "GoFast MCP",
+          "url": "https://gofastmcp.com",
+          "desc": "Go 语言 MCP 服务器，高性能模型上下文协议",
+          "icon": "",
+          "tags": ["Go", "MCP", "AI"],
+          "favorite": false
+        },
+        {
+          "name": "GitMCP",
+          "url": "https://gitmcp.io",
+          "desc": "Git 版本控制的 MCP 集成工具",
+          "icon": "",
+          "tags": ["Git", "MCP", "工具"],
+          "favorite": false
+        },
+        {
+          "name": "SkillsMP",
+          "url": "https://skillsmp.com",
+          "desc": "技能管理与展示平台",
+          "icon": "",
+          "tags": ["技能", "学习"],
+          "favorite": false
+        },
+        {
+          "name": "MinerU",
+          "url": "https://mineru.net",
+          "desc": "文档智能解析工具，PDF/Word 处理",
+          "icon": "",
+          "tags": ["文档", "解析", "工具"],
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "category": "资源发现",
+      "icon": "🔍",
+      "items": [
+        {
+          "name": "Product Hunt",
+          "url": "https://www.producthunt.com",
+          "desc": "发现新产品和科技趋势",
+          "icon": "",
+          "tags": ["产品", "发现"],
+          "favorite": true
+        },
+        {
+          "name": "Hunt0",
+          "url": "https://hunt0.com",
+          "desc": "产品发现社区，探索最新创新产品",
+          "icon": "",
+          "tags": ["产品", "发现"],
+          "favorite": false
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com",
+          "desc": "技术新闻与讨论社区",
+          "icon": "",
+          "tags": ["科技", "新闻"],
+          "favorite": false
+        },
+        {
+          "name": "CodeWiki",
+          "url": "https://codewiki.google",
+          "desc": "Google 代码知识库与文档",
+          "icon": "",
+          "tags": ["Google", "文档", "代码"],
+          "favorite": false
+        },
+        {
+          "name": "Google Learn Your Way",
+          "url": "https://learnyourway.withgoogle.com",
+          "desc": "Google 学习平台，技能提升课程",
+          "icon": "",
+          "tags": ["Google", "学习", "课程"],
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "category": "GitHub 项目",
+      "icon": "🐙",
+      "items": [
+        {
+          "name": "MyTube",
+          "url": "https://github.com/franklioxygen/MyTube",
+          "desc": "开源 YouTube 替代客户端",
+          "icon": "",
+          "tags": ["GitHub", "视频", "开源"],
+          "favorite": false
+        },
+        {
+          "name": "TrendRadar",
+          "url": "https://github.com/sansan0/TrendRadar",
+          "desc": "趋势雷达，追踪 GitHub 热门项目",
+          "icon": "",
+          "tags": ["GitHub", "趋势", "工具"],
+          "favorite": false
+        }
+      ]
+    }
+  ]
+}
