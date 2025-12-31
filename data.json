@@ -59,6 +59,14 @@
           "icon": "",
           "tags": ["Google", "AI", "实验"],
           "favorite": false
+        },
+        {
+          "name": "OpenCommit",
+          "url": "https://github.com/di-sukharev/opencommit",
+          "desc": "AI 自动生成 git commit 信息，支持 Conventional Commits",
+          "icon": "",
+          "tags": ["AI", "Git", "CLI"],
+          "favorite": false
         }
       ]
     },
