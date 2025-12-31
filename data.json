@@ -4,2327 +4,282 @@
       "category": "AI 聊天助手",
       "icon": "💬",
       "items": [
-        {
-          "name": "ChatGPT",
-          "url": "https://chatgpt.com/",
-          "desc": "OpenAI 的 AI 对话助手",
-          "icon": "",
-          "tags": ["AI", "聊天", "OpenAI"],
-          "favorite": true
-        },
-        {
-          "name": "Claude",
-          "url": "https://claude.ai/",
-          "desc": "Anthropic 的 AI 助手",
-          "icon": "",
-          "tags": ["AI", "助手"],
-          "favorite": true
-        },
-        {
-          "name": "Gemini",
-          "url": "https://gemini.google.com/",
-          "desc": "Google 的 AI 助手",
-          "icon": "",
-          "tags": ["AI", "Google", "聊天"],
-          "favorite": false
-        },
-        {
-          "name": "Grok",
-          "url": "https://grok.com/",
-          "desc": "xAI 的 AI 助手",
-          "icon": "",
-          "tags": ["AI", "xAI", "聊天"],
-          "favorite": false
-        },
-        {
-          "name": "Perplexity",
-          "url": "https://www.perplexity.ai/",
-          "desc": "AI 搜索引擎，智能问答",
-          "icon": "",
-          "tags": ["AI", "搜索", "问答"],
-          "favorite": true
-        },
-        {
-          "name": "Perplexity Labs",
-          "url": "https://labs.perplexity.ai/",
-          "desc": "Perplexity 实验室，探索最新 AI 能力",
-          "icon": "",
-          "tags": ["AI", "实验"],
-          "favorite": false
-        },
-        {
-          "name": "Microsoft Copilot",
-          "url": "https://copilot.microsoft.com/",
-          "desc": "微软 AI 助手",
-          "icon": "",
-          "tags": ["AI", "Microsoft"],
-          "favorite": false
-        },
-        {
-          "name": "Groq",
-          "url": "https://groq.com/",
-          "desc": "超快 AI 推理平台",
-          "icon": "",
-          "tags": ["AI", "推理", "速度"],
-          "favorite": false
-        },
-        {
-          "name": "Poe",
-          "url": "https://poe.com/",
-          "desc": "多模型 AI 聚合平台",
-          "icon": "",
-          "tags": ["AI", "聚合", "平台"],
-          "favorite": false
-        },
-        {
-          "name": "通义千问",
-          "url": "https://tongyi.aliyun.com/",
-          "desc": "阿里云大语言模型",
-          "icon": "",
-          "tags": ["AI", "国产", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "Qwen Chat",
-          "url": "https://chat.qwen.ai/",
-          "desc": "通义千问聊天版",
-          "icon": "",
-          "tags": ["AI", "国产", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "腾讯元宝",
-          "url": "https://yuanbao.tencent.com/",
-          "desc": "腾讯 AI 助手",
-          "icon": "",
-          "tags": ["AI", "国产", "腾讯"],
-          "favorite": false
-        },
-        {
-          "name": "Kimi",
-          "url": "https://kimi.moonshot.cn/",
-          "desc": "月之暗面 AI 助手",
-          "icon": "",
-          "tags": ["AI", "国产"],
-          "favorite": true
-        },
-        {
-          "name": "智谱清言",
-          "url": "https://chatglm.cn/",
-          "desc": "智谱 AI 的对话助手",
-          "icon": "",
-          "tags": ["AI", "国产"],
-          "favorite": false
-        },
-        {
-          "name": "天工",
-          "url": "https://www.tiangong.cn/",
-          "desc": "昆仑万维 AI 助手",
-          "icon": "",
-          "tags": ["AI", "国产"],
-          "favorite": false
-        },
-        {
-          "name": "文心一言",
-          "url": "https://yiyan.baidu.com/",
-          "desc": "百度 AI 助手",
-          "icon": "",
-          "tags": ["AI", "国产", "百度"],
-          "favorite": false
-        },
-        {
-          "name": "DeepSeek",
-          "url": "https://www.deepseek.com/",
-          "desc": "深度求索 AI 助手",
-          "icon": "",
-          "tags": ["AI", "国产"],
-          "favorite": true
-        },
-        {
-          "name": "飞书文档 AI",
-          "url": "https://chatdoc.xfyun.cn/chat",
-          "desc": "讯飞文档 AI 助手",
-          "icon": "",
-          "tags": ["AI", "文档"],
-          "favorite": false
-        },
-        {
-          "name": "飞书问答",
-          "url": "https://ask.feishu.cn/topic",
-          "desc": "飞书 AI 问答",
-          "icon": "",
-          "tags": ["AI", "办公"],
-          "favorite": false
-        },
-        {
-          "name": "QQ 元芳",
-          "url": "https://ima.qq.com/",
-          "desc": "QQ AI 助手",
-          "icon": "",
-          "tags": ["AI", "社交"],
-          "favorite": false
-        },
-        {
-          "name": "iAsk AI",
-          "url": "https://iask.ai/?mode=question",
-          "desc": "AI 问答搜索引擎",
-          "icon": "",
-          "tags": ["AI", "搜索", "问答"],
-          "favorite": false
-        }
+        {"name": "ChatGPT", "url": "https://chatgpt.com/", "desc": "OpenAI 的 AI 对话助手", "icon": "", "tags": ["AI", "聊天", "OpenAI"], "favorite": true},
+        {"name": "Claude", "url": "https://claude.ai/", "desc": "Anthropic 的 AI 助手", "icon": "", "tags": ["AI", "助手"], "favorite": true},
+        {"name": "Gemini", "url": "https://gemini.google.com/", "desc": "Google 的 AI 助手", "icon": "", "tags": ["AI", "Google", "聊天"], "favorite": false},
+        {"name": "Grok", "url": "https://grok.com/", "desc": "xAI 的 AI 助手", "icon": "", "tags": ["AI", "xAI", "聊天"], "favorite": false},
+        {"name": "Perplexity", "url": "https://www.perplexity.ai/", "desc": "AI 搜索引擎，智能问答", "icon": "", "tags": ["AI", "搜索", "问答"], "favorite": true},
+        {"name": "Perplexity Labs", "url": "https://labs.perplexity.ai/", "desc": "Perplexity 实验室", "icon": "", "tags": ["AI", "实验"], "favorite": false},
+        {"name": "Microsoft Copilot", "url": "https://copilot.microsoft.com/", "desc": "微软 AI 助手", "icon": "", "tags": ["AI", "Microsoft"], "favorite": false},
+        {"name": "Groq", "url": "https://groq.com/", "desc": "超快 AI 推理平台", "icon": "", "tags": ["AI", "推理", "速度"], "favorite": false},
+        {"name": "Poe", "url": "https://poe.com/", "desc": "多模型 AI 聚合平台", "icon": "", "tags": ["AI", "聚合", "平台"], "favorite": false},
+        {"name": "通义千问", "url": "https://tongyi.aliyun.com/", "desc": "阿里云大语言模型", "icon": "", "tags": ["AI", "国产", "阿里"], "favorite": false},
+        {"name": "Qwen Chat", "url": "https://chat.qwen.ai/", "desc": "通义千问聊天版", "icon": "", "tags": ["AI", "国产", "阿里"], "favorite": false},
+        {"name": "腾讯元宝", "url": "https://yuanbao.tencent.com/", "desc": "腾讯 AI 助手", "icon": "", "tags": ["AI", "国产", "腾讯"], "favorite": false},
+        {"name": "Kimi", "url": "https://kimi.moonshot.cn/", "desc": "月之暗面 AI 助手", "icon": "", "tags": ["AI", "国产"], "favorite": true},
+        {"name": "智谱清言", "url": "https://chatglm.cn/", "desc": "智谱 AI 的对话助手", "icon": "", "tags": ["AI", "国产"], "favorite": false},
+        {"name": "天工", "url": "https://www.tiangong.cn/", "desc": "昆仑万维 AI 助手", "icon": "", "tags": ["AI", "国产"], "favorite": false},
+        {"name": "文心一言", "url": "https://yiyan.baidu.com/", "desc": "百度 AI 助手", "icon": "", "tags": ["AI", "国产", "百度"], "favorite": false},
+        {"name": "DeepSeek", "url": "https://www.deepseek.com/", "desc": "深度求索 AI 助手", "icon": "", "tags": ["AI", "国产"], "favorite": true},
+        {"name": "iAsk AI", "url": "https://iask.ai/?mode=question", "desc": "AI 问答搜索引擎", "icon": "", "tags": ["AI", "搜索", "问答"], "favorite": false}
       ]
     },
     {
       "category": "AI 编程开发",
       "icon": "🧑‍💻",
       "items": [
-        {
-          "name": "Cursor",
-          "url": "https://cursor101.com/zh",
-          "desc": "AI 原生代码编辑器中文站",
-          "icon": "",
-          "tags": ["AI", "编辑器"],
-          "favorite": true
-        },
-        {
-          "name": "Cursor Directory",
-          "url": "https://cursor.directory/",
-          "desc": "Cursor 扩展目录",
-          "icon": "",
-          "tags": ["AI", "Cursor", "扩展"],
-          "favorite": false
-        },
-        {
-          "name": "CopyAnyUI",
-          "url": "https://copyanyui.org/",
-          "desc": "AI 复制 UI 界面工具",
-          "icon": "",
-          "tags": ["AI", "UI", "前端"],
-          "favorite": false
-        },
-        {
-          "name": "Ollama",
-          "url": "https://ollama.com/",
-          "desc": "本地运行大模型工具",
-          "icon": "",
-          "tags": ["AI", "本地", "开源"],
-          "favorite": true
-        },
-        {
-          "name": "Open WebUI",
-          "url": "https://github.com/open-webui/open-webui",
-          "desc": "自托管 LLM Web UI",
-          "icon": "",
-          "tags": ["AI", "开源", "界面"],
-          "favorite": true
-        },
-        {
-          "name": "OpenHands",
-          "url": "https://github.com/All-Hands-AI/OpenHands",
-          "desc": "开源 AI 软件工程师",
-          "icon": "",
-          "tags": ["AI", "开源", "编程"],
-          "favorite": false
-        },
-        {
-          "name": "Devin",
-          "url": "https://app.devin.ai/",
-          "desc": "AI 软件工程师",
-          "icon": "",
-          "tags": ["AI", "编程"],
-          "favorite": false
-        },
-        {
-          "name": "OpenDevin",
-          "url": "https://github.com/OpenDevin/OpenDevin",
-          "desc": "开源版 Devin",
-          "icon": "",
-          "tags": ["AI", "开源", "编程"],
-          "favorite": false
-        },
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/",
-          "desc": "AI 模型社区",
-          "icon": "",
-          "tags": ["AI", "模型", "开源"],
-          "favorite": true
-        },
-        {
-          "name": "HF Mirror",
-          "url": "https://hf-mirror.com/",
-          "desc": "Hugging Face 国内镜像",
-          "icon": "",
-          "tags": ["AI", "镜像"],
-          "favorite": false
-        },
-        {
-          "name": "Coze",
-          "url": "https://www.coze.com/",
-          "desc": "AI Bot 开发平台国际版",
-          "icon": "",
-          "tags": ["AI", "Bot", "开发"],
-          "favorite": true
-        },
-        {
-          "name": "Coze CN",
-          "url": "https://www.coze.cn/home",
-          "desc": "AI Bot 开发平台国内版",
-          "icon": "",
-          "tags": ["AI", "Bot", "开发"],
-          "favorite": false
-        },
-        {
-          "name": "Dify",
-          "url": "https://dify.ai/zh",
-          "desc": "LLM 应用开发平台",
-          "icon": "",
-          "tags": ["AI", "开发", "开源"],
-          "favorite": true
-        },
-        {
-          "name": "SiliconFlow",
-          "url": "https://siliconflow.cn/zh-cn/",
-          "desc": "硅基流动 AI 推理平台",
-          "icon": "",
-          "tags": ["AI", "推理", "国产"],
-          "favorite": false
-        },
-        {
-          "name": "n8n",
-          "url": "https://n8n.io/",
-          "desc": "工作流自动化工具",
-          "icon": "",
-          "tags": ["自动化", "工作流", "开源"],
-          "favorite": true
-        },
-        {
-          "name": "LatentBox",
-          "url": "https://latentbox.com/zh",
-          "desc": "AI 潜空间探索平台",
-          "icon": "",
-          "tags": ["AI", "实验"],
-          "favorite": false
-        },
-        {
-          "name": "MCP Composio",
-          "url": "https://mcp.composio.dev/",
-          "desc": "MCP 工具集成平台",
-          "icon": "",
-          "tags": ["AI", "MCP", "工具"],
-          "favorite": false
-        },
-        {
-          "name": "阿里百炼",
-          "url": "https://www.aliyun.com/product/bailian",
-          "desc": "阿里云大模型开发平台",
-          "icon": "",
-          "tags": ["AI", "国产", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "PromptUp",
-          "url": "https://promptup.net/?tag=%E4%B8%AD%E6%96%87&page=1",
-          "desc": "提示词分享平台",
-          "icon": "",
-          "tags": ["AI", "提示词"],
-          "favorite": false
-        },
-        {
-          "name": "Reflex",
-          "url": "https://reflex.dev/",
-          "desc": "Python Web 全栈框架",
-          "icon": "",
-          "tags": ["Python", "Web", "框架"],
-          "favorite": false
-        },
-        {
-          "name": "UiPrompt",
-          "url": "https://uiprompt.art/",
-          "desc": "UI 提示词工具",
-          "icon": "",
-          "tags": ["AI", "UI", "提示词"],
-          "favorite": false
-        },
-        {
-          "name": "Firebase Studio",
-          "url": "https://firebase.studio/",
-          "desc": "Firebase 可视化开发工具",
-          "icon": "",
-          "tags": ["Firebase", "开发", "Google"],
-          "favorite": false
-        },
-        {
-          "name": "MGX",
-          "url": "https://mgx.dev/",
-          "desc": "AI 开发工具",
-          "icon": "",
-          "tags": ["AI", "开发"],
-          "favorite": false
-        },
-        {
-          "name": "Space Coze",
-          "url": "https://space.coze.cn/",
-          "desc": "Coze 空间",
-          "icon": "",
-          "tags": ["AI", "Coze"],
-          "favorite": false
-        },
-        {
-          "name": "AugmentCode",
-          "url": "https://www.augmentcode.com/",
-          "desc": "AI 代码增强工具",
-          "icon": "",
-          "tags": ["AI", "编程"],
-          "favorite": false
-        },
-        {
-          "name": "Langflow",
-          "url": "https://www.langflow.org/",
-          "desc": "可视化 LLM 应用构建",
-          "icon": "",
-          "tags": ["AI", "可视化", "低代码"],
-          "favorite": false
-        },
-        {
-          "name": "PromptPilot",
-          "url": "https://promptpilot.volcengine.com/home",
-          "desc": "火山引擎提示词平台",
-          "icon": "",
-          "tags": ["AI", "提示词", "字节"],
-          "favorite": false
-        },
-        {
-          "name": "OpenAI Agent Builder",
-          "url": "https://platform.openai.com/agent-builder",
-          "desc": "OpenAI Agent 构建器",
-          "icon": "",
-          "tags": ["AI", "OpenAI", "Agent"],
-          "favorite": false
-        },
-        {
-          "name": "CodeBuddy",
-          "url": "https://cnb.cool/codebuddy/codebuddy-code",
-          "desc": "AI 代码助手",
-          "icon": "",
-          "tags": ["AI", "编程"],
-          "favorite": false
-        },
-        {
-          "name": "Spec Kit",
-          "url": "https://github.com/github/spec-kit",
-          "desc": "GitHub Spec Kit 工具",
-          "icon": "",
-          "tags": ["GitHub", "工具"],
-          "favorite": false
-        },
-        {
-          "name": "Aistudio Google",
-          "url": "https://aistudio.google.com/apps",
-          "desc": "Google AI Studio",
-          "icon": "",
-          "tags": ["AI", "Google"],
-          "favorite": false
-        },
-        {
-          "name": "智谱清言编码计划",
-          "url": "https://docs.bigmodel.cn/cn/coding-plan/overview",
-          "desc": "智谱 AI 编程帮助",
-          "icon": "",
-          "tags": ["AI", "国产", "编程"],
-          "favorite": false
-        },
-        {
-          "name": "LLaMA Factory",
-          "url": "https://github.com/hiyouga/LLaMA-Factory/blob/main/README_zh.md",
-          "desc": "大模型微调框架",
-          "icon": "",
-          "tags": ["AI", "微调", "开源"],
-          "favorite": false
-        }
+        {"name": "Claude Code", "url": "https://claude.com/product/claude-code", "desc": "Anthropic 官方 AI 编程助手", "icon": "", "tags": ["AI", "编程", "Claude"], "favorite": true},
+        {"name": "Cursor", "url": "https://cursor.com/", "desc": "AI 原生代码编辑器官网", "icon": "", "tags": ["AI", "编辑器"], "favorite": true},
+        {"name": "Windsurf", "url": "https://windsurf.com/", "desc": "Codeium AI IDE", "icon": "", "tags": ["AI", "IDE", "编辑器"], "favorite": true},
+        {"name": "Zed", "url": "https://zed.dev/", "desc": "高性能协作代码编辑器", "icon": "", "tags": ["编辑器", "协作", "性能"], "favorite": true},
+        {"name": "Ollama", "url": "https://ollama.com/", "desc": "本地运行大模型工具", "icon": "", "tags": ["AI", "本地", "开源"], "favorite": true},
+        {"name": "Open WebUI", "url": "https://openwebui.com/", "desc": "自托管 LLM Web UI 官网", "icon": "", "tags": ["AI", "开源", "界面"], "favorite": true},
+        {"name": "Hugging Face", "url": "https://huggingface.co/", "desc": "AI 模型社区", "icon": "", "tags": ["AI", "模型", "开源"], "favorite": true},
+        {"name": "Coze", "url": "https://www.coze.com/", "desc": "AI Bot 开发平台国际版", "icon": "", "tags": ["AI", "Bot", "开发"], "favorite": true},
+        {"name": "Dify", "url": "https://dify.ai/zh", "desc": "LLM 应用开发平台", "icon": "", "tags": ["AI", "开发", "开源"], "favorite": true},
+        {"name": "n8n", "url": "https://n8n.io/", "desc": "工作流自动化工具", "icon": "", "tags": ["自动化", "工作流", "开源"], "favorite": true},
+        {"name": "LangChain", "url": "https://www.langchain.com/", "desc": "LLM 应用开发框架", "icon": "", "tags": ["AI", "框架", "LLM"], "favorite": true},
+        {"name": "v0.dev", "url": "https://v0.dev/", "desc": "Vercel AI 生成 UI", "icon": "", "tags": ["前端", "AI"], "favorite": true},
+        {"name": "Bolt.new", "url": "https://bolt.new/", "desc": "AI 全栈开发", "icon": "", "tags": ["前端", "AI"], "favorite": true},
+        {"name": "Zcode AI", "url": "https://zcode-ai.com/", "desc": "智能代码生成工具", "icon": "", "tags": ["AI", "代码生成"], "favorite": false},
+        {"name": "Antigravity", "url": "https://antigravity.google/", "desc": "Google AI 实验室", "icon": "", "tags": ["Google", "AI", "实验"], "favorite": false},
+        {"name": "OpenAI Codex", "url": "https://openai.com/codex/", "desc": "OpenAI 代码生成模型", "icon": "", "tags": ["AI", "代码生成", "OpenAI"], "favorite": false},
+        {"name": "OpenCode AI", "url": "https://opencode.ai/", "desc": "AI 代码生成平台", "icon": "", "tags": ["AI", "编程"], "favorite": false},
+        {"name": "GoFast MCP", "url": "https://gofastmcp.com/", "desc": "Go 语言 MCP 服务器", "icon": "", "tags": ["Go", "MCP", "AI"], "favorite": false},
+        {"name": "GitMCP", "url": "https://gitmcp.io/", "desc": "Git MCP 集成工具", "icon": "", "tags": ["Git", "MCP", "工具"], "favorite": false},
+        {"name": "OpenHands", "url": "https://github.com/All-Hands-AI/OpenHands", "desc": "开源 AI 软件工程师", "icon": "", "tags": ["AI", "开源", "编程"], "favorite": false},
+        {"name": "Devin", "url": "https://app.devin.ai/", "desc": "AI 软件工程师", "icon": "", "tags": ["AI", "编程"], "favorite": false},
+        {"name": "OpenDevin", "url": "https://github.com/OpenDevin/OpenDevin", "desc": "开源版 Devin", "icon": "", "tags": ["AI", "开源", "编程"], "favorite": false},
+        {"name": "Coze CN", "url": "https://www.coze.cn/home", "desc": "AI Bot 开发平台国内版", "icon": "", "tags": ["AI", "Bot", "开发"], "favorite": false},
+        {"name": "SiliconFlow", "url": "https://siliconflow.cn/zh-cn/", "desc": "硅基流动 AI 推理平台", "icon": "", "tags": ["AI", "推理", "国产"], "favorite": false},
+        {"name": "LatentBox", "url": "https://latentbox.com/zh", "desc": "AI 潜空间探索平台", "icon": "", "tags": ["AI", "实验"], "favorite": false},
+        {"name": "MCP Composio", "url": "https://mcp.composio.dev/", "desc": "MCP 工具集成平台", "icon": "", "tags": ["AI", "MCP", "工具"], "favorite": false},
+        {"name": "PromptUp", "url": "https://promptup.net/?tag=%E4%B8%AD%E6%96%87&page=1", "desc": "提示词分享平台", "icon": "", "tags": ["AI", "提示词"], "favorite": false},
+        {"name": "Reflex", "url": "https://reflex.dev/", "desc": "Python Web 全栈框架", "icon": "", "tags": ["Python", "Web", "框架"], "favorite": false},
+        {"name": "UiPrompt", "url": "https://uiprompt.art/", "desc": "UI 提示词工具", "icon": "", "tags": ["AI", "UI", "提示词"], "favorite": false},
+        {"name": "AugmentCode", "url": "https://www.augmentcode.com/", "desc": "AI 代码增强工具", "icon": "", "tags": ["AI", "编程"], "favorite": false},
+        {"name": "Langflow", "url": "https://www.langflow.org/", "desc": "可视化 LLM 应用构建", "icon": "", "tags": ["AI", "可视化", "低代码"], "favorite": false},
+        {"name": "OpenAI Agent Builder", "url": "https://platform.openai.com/agent-builder", "desc": "OpenAI Agent 构建器", "icon": "", "tags": ["AI", "OpenAI", "Agent"], "favorite": false},
+        {"name": "LLaMA Factory", "url": "https://github.com/hiyouga/LLaMA-Factory", "desc": "大模型微调框架", "icon": "", "tags": ["AI", "微调", "开源"], "favorite": false}
       ]
     },
     {
       "category": "AI 学习资源",
       "icon": "📚",
       "items": [
-        {
-          "name": "PromptingGuide",
-          "url": "https://www.promptingguide.ai/zh",
-          "desc": "提示词工程指南中文版",
-          "icon": "",
-          "tags": ["AI", "提示词", "教程"],
-          "favorite": true
-        },
-        {
-          "name": "SnackPrompt",
-          "url": "https://snackprompt.com/",
-          "desc": "提示词社区",
-          "icon": "",
-          "tags": ["AI", "提示词"],
-          "favorite": false
-        },
-        {
-          "name": "AI Bot",
-          "url": "https://ai-bot.cn/",
-          "desc": "AI 工具导航",
-          "icon": "",
-          "tags": ["AI", "导航"],
-          "favorite": false
-        },
-        {
-          "name": "WayToAGI",
-          "url": "https://www.waytoagi.com/",
-          "desc": "AI 学习路径",
-          "icon": "",
-          "tags": ["AI", "学习"],
-          "favorite": false
-        },
-        {
-          "name": "DeepLearning.AI",
-          "url": "https://www.deeplearning.ai/courses/",
-          "desc": "深度学习课程平台",
-          "icon": "",
-          "tags": ["AI", "课程"],
-          "favorite": true
-        },
-        {
-          "name": "DeepMind",
-          "url": "https://deepmind.google/",
-          "desc": "Google DeepMind",
-          "icon": "",
-          "tags": ["AI", "Google", "研究"],
-          "favorite": false
-        },
-        {
-          "name": "Anthropic Prompt Engineering",
-          "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
-          "desc": "Claude 提示词工程文档",
-          "icon": "",
-          "tags": ["AI", "提示词", "文档"],
-          "favorite": true
-        },
-        {
-          "name": "飞书智能体社区",
-          "url": "https://www.feishu.cn/community/prompts?from=weeknew",
-          "desc": "飞书 AI 助手社区",
-          "icon": "",
-          "tags": ["AI", "社区"],
-          "favorite": false
-        },
-        {
-          "name": "LLM Universe",
-          "url": "https://github.com/datawhalechina/llm-universe",
-          "desc": "Datawhale LLM 教程",
-          "icon": "",
-          "tags": ["AI", "教程", "中文"],
-          "favorite": true
-        },
-        {
-          "name": "LLM Cookbook",
-          "url": "https://github.com/datawhalechina/llm-cookbook",
-          "desc": "LLM 实践教程",
-          "icon": "",
-          "tags": ["AI", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "Generative AI Course",
-          "url": "https://www.coursera.org/learn/generative-ai-for-everyone",
-          "desc": "生成式 AI 入门课程",
-          "icon": "",
-          "tags": ["AI", "课程"],
-          "favorite": false
-        },
-        {
-          "name": "ModelScope",
-          "url": "https://modelscope.cn/home",
-          "desc": "魔搭社区 AI 模型",
-          "icon": "",
-          "tags": ["AI", "模型", "国产"],
-          "favorite": false
-        },
-        {
-          "name": "Datawhale",
-          "url": "https://www.datawhale.cn/",
-          "desc": "Datawhale 学习社区",
-          "icon": "",
-          "tags": ["学习", "社区"],
-          "favorite": false
-        },
-        {
-          "name": "LangGPT",
-          "url": "https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe",
-          "desc": "结构化提示词教程",
-          "icon": "",
-          "tags": ["AI", "提示词"],
-          "favorite": false
-        },
-        {
-          "name": "Geek AGI",
-          "url": "https://geek-agi.feishu.cn/wiki/B9rYwwg6xidZYJkbrlscxTQFnOc",
-          "desc": "极客 AGI 知识库",
-          "icon": "",
-          "tags": ["AI", "知识库"],
-          "favorite": false
-        },
-        {
-          "name": "TensorFlow",
-          "url": "https://tensorflow.google.cn/",
-          "desc": "TensorFlow 中文文档",
-          "icon": "",
-          "tags": ["AI", "框架", "文档"],
-          "favorite": false
-        },
-        {
-          "name": "HelloDify",
-          "url": "https://hellodify.com/zh",
-          "desc": "Dify 教程",
-          "icon": "",
-          "tags": ["AI", "Dify", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "Atypica",
-          "url": "https://atypica.musedam.cc/",
-          "desc": "AI 工具集合",
-          "icon": "",
-          "tags": ["AI", "工具"],
-          "favorite": false
-        }
-        
-      ]
-    },
-    {
-      "category": "Java 后端开发",
-      "icon": "☕",
-      "items": [
-        {
-          "name": "Spring",
-          "url": "https://spring.io/",
-          "desc": "Spring 官方网站",
-          "icon": "",
-          "tags": ["Java", "Spring", "框架"],
-          "favorite": true
-        },
-        {
-          "name": "Spring Initializr",
-          "url": "https://start.spring.io/",
-          "desc": "Spring 项目初始化",
-          "icon": "",
-          "tags": ["Java", "Spring"],
-          "favorite": true
-        },
-        {
-          "name": "Spring Cloud 中文",
-          "url": "https://www.springcloud.cc/",
-          "desc": "Spring Cloud 中文文档",
-          "icon": "",
-          "tags": ["Java", "Spring", "文档"],
-          "favorite": false
-        },
-        {
-          "name": "Arthas",
-          "url": "https://arthas.aliyun.com/",
-          "desc": "阿里 Java 诊断工具",
-          "icon": "",
-          "tags": ["Java", "工具", "阿里"],
-          "favorite": true
-        },
-        {
-          "name": "Baeldung",
-          "url": "https://www.baeldung.com/java-httpclient-post",
-          "desc": "Java 教程网站",
-          "icon": "",
-          "tags": ["Java", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "Doocs",
-          "url": "https://doocs.org/#/README_CN",
-          "desc": "Java 面试突击",
-          "icon": "",
-          "tags": ["Java", "面试"],
-          "favorite": true
-        },
-        {
-          "name": "PDai",
-          "url": "https://pdai.tech/",
-          "desc": "Java 全栈知识体系",
-          "icon": "",
-          "tags": ["Java", "教程"],
-          "favorite": true
-        },
-        {
-          "name": "Hollis",
-          "url": "https://www.yuque.com/hollis666/vagnu8",
-          "desc": "Hollis 技术博客",
-          "icon": "",
-          "tags": ["Java", "博客"],
-          "favorite": false
-        },
-        {
-          "name": "JavaGuide",
-          "url": "https://snailclimb.gitee.io/javaguide/#/",
-          "desc": "Java 学习指南",
-          "icon": "",
-          "tags": ["Java", "教程"],
-          "favorite": true
-        },
-        {
-          "name": "小林Coding",
-          "url": "https://xiaolincoding.com/",
-          "desc": "小林技术博客",
-          "icon": "",
-          "tags": ["Java", "博客"],
-          "favorite": false
-        },
-        {
-          "name": "JavaBetter",
-          "url": "https://javabetter.cn/blog.html",
-          "desc": "Java 学习网站",
-          "icon": "",
-          "tags": ["Java", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "BugStack",
-          "url": "https://bugstack.cn/",
-          "desc": "BugStack 博客",
-          "icon": "",
-          "tags": ["Java", "博客"],
-          "favorite": false
-        },
-        {
-          "name": "程序猿DD",
-          "url": "http://blog.didispace.com/",
-          "desc": "DD 技术博客",
-          "icon": "",
-          "tags": ["Java", "博客"],
-          "favorite": false
-        },
-        {
-          "name": "芋道源码",
-          "url": "http://svip.iocoder.cn/index/",
-          "desc": "芋道源码教程",
-          "icon": "",
-          "tags": ["Java", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "纯洁的微笑",
-          "url": "http://www.iocoder.cn/?bilibili&av20974126",
-          "desc": "技术博客",
-          "icon": "",
-          "tags": ["Java", "博客"],
-          "favorite": false
-        },
-        {
-          "name": "Kirito",
-          "url": "https://www.cnkirito.moe/",
-          "desc": "Kirito 技术博客",
-          "icon": "",
-          "tags": ["Java", "博客"],
-          "favorite": false
-        },
-        {
-          "name": "JesonC",
-          "url": "http://www.jesonc.com/jeson/",
-          "desc": "JesonC 技术博客",
-          "icon": "",
-          "tags": ["Java", "博客"],
-          "favorite": false
-        },
-        {
-          "name": "阿里云开发者",
-          "url": "https://developer.aliyun.com/",
-          "desc": "阿里云开发者社区",
-          "icon": "",
-          "tags": ["Java", "社区", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "ShowMeAI",
-          "url": "https://www.showmeai.tech/",
-          "desc": "ShowMeAI 教程",
-          "icon": "",
-          "tags": ["教程", "AI"],
-          "favorite": false
-        },
-        {
-          "name": "美团技术团队",
-          "url": "https://tech.meituan.com/2020/11/12/java-9-cms-gc.html",
-          "desc": "美团技术博客",
-          "icon": "",
-          "tags": ["Java", "博客"],
-          "favorite": false
-        },
-        {
-          "name": "IcyFenix",
-          "url": "https://icyfenix.cn/",
-          "desc": "深入理解架构设计",
-          "icon": "",
-          "tags": ["架构", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "Spring Boot Labs",
-          "url": "https://github.com/YunaiV/SpringBoot-Labs",
-          "desc": "Spring Boot 教程",
-          "icon": "",
-          "tags": ["Java", "Spring", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "Spring Boot Examples",
-          "url": "https://github.com/ityouknow/spring-boot-examples",
-          "desc": "Spring Boot 示例",
-          "icon": "",
-          "tags": ["Java", "Spring"],
-          "favorite": false
-        },
-        {
-          "name": "Advanced Java",
-          "url": "https://github.com/doocs/advanced-java",
-          "desc": "Java 进阶知识",
-          "icon": "",
-          "tags": ["Java", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "Java Design Patterns",
-          "url": "https://github.com/iluwatar/java-design-patterns",
-          "desc": "Java 设计模式",
-          "icon": "",
-          "tags": ["Java", "设计模式"],
-          "favorite": false
-        },
-        {
-          "name": "Martin Fowler",
-          "url": "https://martinfowler.com/",
-          "desc": "Martin Fowler 博客",
-          "icon": "",
-          "tags": ["架构", "博客"],
-          "favorite": false
-        },
-        {
-          "name": "System Design Primer",
-          "url": "https://github.com/donnemartin/system-design-primer",
-          "desc": "系统设计入门",
-          "icon": "",
-          "tags": ["架构", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "深度好文",
-          "url": "https://zhuanlan.zhihu.com/p/392524169",
-          "desc": "Java 技术文章",
-          "icon": "",
-          "tags": ["Java", "文章"],
-          "favorite": false
-        },
-        {
-          "name": "Hutool",
-          "url": "https://hutool.cn/",
-          "desc": "Java 工具类库",
-          "icon": "",
-          "tags": ["Java", "工具"],
-          "favorite": true
-        },
-        {
-          "name": "Spring Cloud Alibaba",
-          "url": "https://github.com/alibaba/spring-cloud-alibaba/wiki",
-          "desc": "Spring Cloud 阿里巴巴",
-          "icon": "",
-          "tags": ["Java", "Spring", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "SegmentFault",
-          "url": "https://segmentfault.com/blog/ressmix_multithread",
-          "desc": "SegmentFault 多线程专栏",
-          "icon": "",
-          "tags": ["Java", "多线程"],
-          "favorite": false
-        },
-        {
-          "name": "代码指南",
-          "url": "https://github.com/fuzhengwei/CodeGuide/wiki",
-          "desc": "代码学习指南",
-          "icon": "",
-          "tags": ["Java", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "XXL-Job",
-          "url": "https://www.xuxueli.com/xxl-job/",
-          "desc": "分布式任务调度",
-          "icon": "",
-          "tags": ["Java", "任务调度"],
-          "favorite": true
-        },
-        {
-          "name": "Transmittable ThreadLocal",
-          "url": "https://github.com/alibaba/transmittable-thread-local",
-          "desc": "阿里 TTL 线程池",
-          "icon": "",
-          "tags": ["Java", "阿里", "并发"],
-          "favorite": false
-        },
-        {
-          "name": "Forest",
-          "url": "https://forest.dtflyx.com/pages/1.5.x/spring_boot_usage/",
-          "desc": "Java HTTP 客户端",
-          "icon": "",
-          "tags": ["Java", "HTTP"],
-          "favorite": false
-        },
-        {
-          "name": "Reactive Spring",
-          "url": "https://github.com/reactile/spring-reactive-sample",
-          "desc": "Spring 响应式编程",
-          "icon": "",
-          "tags": ["Java", "Spring", "响应式"],
-          "favorite": false
-        }
-      ]
-    },
-    {
-      "category": "大数据与中间件",
-      "icon": "🗄️",
-      "items": [
-        {
-          "name": "Kafka",
-          "url": "http://kafka.apache.org/",
-          "desc": "Apache Kafka",
-          "icon": "",
-          "tags": ["中间件", "消息队列"],
-          "favorite": true
-        },
-        {
-          "name": "Kafka Eagle",
-          "url": "http://download.kafka-eagle.org/",
-          "desc": "Kafka 监控工具",
-          "icon": "",
-          "tags": ["Kafka", "监控"],
-          "favorite": false
-        },
-        {
-          "name": "LogiKM",
-          "url": "https://github.com/didi/LogiKM",
-          "desc": "滴滴 Kafka 管理",
-          "icon": "",
-          "tags": ["Kafka", "管理"],
-          "favorite": false
-        },
-        {
-          "name": "Elasticsearch",
-          "url": "https://www.elastic.co/guide/en/elasticsearch/reference/7.7/brew.html",
-          "desc": "Elasticsearch 搜索引擎",
-          "icon": "",
-          "tags": ["搜索", "ELK"],
-          "favorite": true
-        },
-        {
-          "name": "Kibana",
-          "url": "https://www.elastic.co/guide/en/kibana/7.7/brew.html",
-          "desc": "Kibana 可视化",
-          "icon": "",
-          "tags": ["ELK", "可视化"],
-          "favorite": false
-        },
-        {
-          "name": "Logstash",
-          "url": "https://www.elastic.co/guide/en/logstash/7.7/installing-logstash.html",
-          "desc": "Logstash 日志处理",
-          "icon": "",
-          "tags": ["ELK", "日志"],
-          "favorite": false
-        },
-        {
-          "name": "Filebeat",
-          "url": "https://www.elastic.co/guide/en/beats/filebeat/7.7/filebeat-installation.html",
-          "desc": "Filebeat 日志采集",
-          "icon": "",
-          "tags": ["ELK", "日志"],
-          "favorite": false
-        },
-        {
-          "name": "RocketMQ",
-          "url": "http://rocketmq.apache.org/docs/motivation/",
-          "desc": "Apache RocketMQ",
-          "icon": "",
-          "tags": ["中间件", "消息队列"],
-          "favorite": false
-        },
-        {
-          "name": "Pulsar",
-          "url": "https://pulsar.apache.org/zh-CN/",
-          "desc": "Apache Pulsar",
-          "icon": "",
-          "tags": ["中间件", "消息队列"],
-          "favorite": false
-        },
-        {
-          "name": "Redis",
-          "url": "https://redis.io/modules",
-          "desc": "Redis 官方文档",
-          "icon": "",
-          "tags": ["数据库", "缓存"],
-          "favorite": true
-        },
-        {
-          "name": "Redis 中文",
-          "url": "http://redisdoc.com/",
-          "desc": "Redis 中文文档",
-          "icon": "",
-          "tags": ["数据库", "缓存", "中文"],
-          "favorite": false
-        },
-        {
-          "name": "Redisson",
-          "url": "https://github.com/redisson/redisson/wiki/",
-          "desc": "Redis Java 客户端",
-          "icon": "",
-          "tags": ["Redis", "Java"],
-          "favorite": false
-        },
-        {
-          "name": "MySQL",
-          "url": "https://dev.mysql.com/doc/",
-          "desc": "MySQL 官方文档",
-          "icon": "",
-          "tags": ["数据库", "MySQL"],
-          "favorite": true
-        },
-        {
-          "name": "MongoDB",
-          "url": "https://docs.mongoing.com/indexes/single-field-indexes",
-          "desc": "MongoDB 中文文档",
-          "icon": "",
-          "tags": ["数据库", "MongoDB"],
-          "favorite": false
-        },
-        {
-          "name": "Neo4j",
-          "url": "https://neo4j.com/docs/",
-          "desc": "Neo4j 图数据库",
-          "icon": "",
-          "tags": ["数据库", "图数据库"],
-          "favorite": false
-        },
-        {
-          "name": "Neo4j 中文",
-          "url": "https://www.w3cschool.cn/neo4j/",
-          "desc": "Neo4j 中文教程",
-          "icon": "",
-          "tags": ["数据库", "图数据库"],
-          "favorite": false
-        },
-        {
-          "name": "Canal",
-          "url": "https://github.com/alibaba/canal",
-          "desc": "阿里数据库同步",
-          "icon": "",
-          "tags": ["中间件", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "Leaf",
-          "url": "https://github.com/Meituan-Dianping/Leaf",
-          "desc": "美团分布式 ID",
-          "icon": "",
-          "tags": ["中间件", "分布式"],
-          "favorite": false
-        },
-        {
-          "name": "BigData Notes",
-          "url": "https://github.com/heibaiying/BigData-Notes",
-          "desc": "大数据学习笔记",
-          "icon": "",
-          "tags": ["大数据", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "Flyway",
-          "url": "https://flywaydb.org/documentation/usage/api/",
-          "desc": "数据库迁移工具",
-          "icon": "",
-          "tags": ["数据库", "工具"],
-          "favorite": false
-        },
-        {
-          "name": "Spark SQL",
-          "url": "https://spark.apache.org/docs/3.5.1/sql-ref-ansi-compliance.html",
-          "desc": "Spark SQL 文档",
-          "icon": "",
-          "tags": ["大数据", "Spark"],
-          "favorite": false
-        },
-        {
-          "name": "Sentinel",
-          "url": "https://sentinelguard.io/zh-cn/",
-          "desc": "阿里流量控制",
-          "icon": "",
-          "tags": ["中间件", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "Nacos",
-          "url": "https://nacos.io/en-us/",
-          "desc": "服务发现与配置",
-          "icon": "",
-          "tags": ["中间件"],
-          "favorite": false
-        },
-        {
-          "name": "Hystrix",
-          "url": "https://github.com/Netflix/Hystrix/wiki",
-          "desc": "Netflix 熔断器",
-          "icon": "",
-          "tags": ["中间件", "熔断"],
-          "favorite": false
-        },
-        {
-          "name": "Zuul",
-          "url": "https://github.com/Netflix/zuul/wiki",
-          "desc": "Netflix 网关",
-          "icon": "",
-          "tags": ["中间件", "网关"],
-          "favorite": false
-        },
-        {
-          "name": "FF4J",
-          "url": "https://ff4j.org/",
-          "desc": "功能开关框架",
-          "icon": "",
-          "tags": ["中间件", "功能开关"],
-          "favorite": false
-        },
-        {
-          "name": "Raft",
-          "url": "https://raft.github.io/",
-          "desc": "Raft 一致性算法",
-          "icon": "",
-          "tags": ["算法", "分布式"],
-          "favorite": false
-        },
-        {
-          "name": "Yearning",
-          "url": "https://guide.yearning.io/",
-          "desc": "MySQL 审核平台",
-          "icon": "",
-          "tags": ["数据库", "审核"],
-          "favorite": false
-        },
-        {
-          "name": "Algo CodeFather",
-          "url": "https://algo.codefather.cn/",
-          "desc": "算法学习",
-          "icon": "",
-          "tags": ["算法", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "K8s Kafka",
-          "url": "https://www.qikqiak.com/post/install-kafka-in-kubernetes/",
-          "desc": "K8s 安装 Kafka",
-          "icon": "",
-          "tags": ["K8s", "Kafka"],
-          "favorite": false
-        },
-        {
-          "name": "LearnK8s",
-          "url": "https://learnk8s.io/",
-          "desc": "Kubernetes 教程",
-          "icon": "",
-          "tags": ["K8s", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "Kafka HA K8s",
-          "url": "https://learnk8s.io/kafka-ha-kubernetes",
-          "desc": "Kafka K8s 高可用",
-          "icon": "",
-          "tags": ["K8s", "Kafka"],
-          "favorite": false
-        }
-      ]
-    },
-    {
-      "category": "前端开发",
-      "icon": "🎨",
-      "items": [
-        {
-          "name": "React",
-          "url": "https://zh-hans.react.dev/",
-          "desc": "React 中文文档",
-          "icon": "",
-          "tags": ["前端", "React"],
-          "favorite": true
-        },
-        {
-          "name": "v0.dev",
-          "url": "https://v0.dev/",
-          "desc": "Vercel AI 生成 UI",
-          "icon": "",
-          "tags": ["前端", "AI"],
-          "favorite": true
-        },
-        {
-          "name": "Bolt.new",
-          "url": "https://bolt.new/",
-          "desc": "AI 全栈开发",
-          "icon": "",
-          "tags": ["前端", "AI"],
-          "favorite": true
-        },
-        {
-          "name": "DeepSite",
-          "url": "https://huggingface.co/spaces/enzostvs/deepsite",
-          "desc": "AI 网站生成",
-          "icon": "",
-          "tags": ["前端", "AI"],
-          "favorite": false
-        },
-        {
-          "name": "ImagineMe",
-          "url": "https://imagineme.ai/",
-          "desc": "AI 图像生成",
-          "icon": "",
-          "tags": ["AI", "图像"],
-          "favorite": false
-        },
-        {
-          "name": "OpenArt",
-          "url": "https://openart.ai/",
-          "desc": "AI 艺术平台",
-          "icon": "",
-          "tags": ["AI", "艺术"],
-          "favorite": false
-        },
-        {
-          "name": "Text2SQL",
-          "url": "https://www.text2sql.ai/",
-          "desc": "文本转 SQL",
-          "icon": "",
-          "tags": ["AI", "SQL"],
-          "favorite": false
-        },
-        {
-          "name": "Chat2DB",
-          "url": "https://chat2db-ai.com/",
-          "desc": "AI 数据库管理",
-          "icon": "",
-          "tags": ["AI", "数据库"],
-          "favorite": false
-        },
-        {
-          "name": "Streamlit",
-          "url": "https://streamlit.io/",
-          "desc": "Python Web 框架",
-          "icon": "",
-          "tags": ["Python", "前端"],
-          "favorite": false
-        },
-        {
-          "name": "PyGWalker",
-          "url": "https://docs.kanaries.net/pygwalker",
-          "desc": "Python 可视化",
-          "icon": "",
-          "tags": ["Python", "可视化"],
-          "favorite": false
-        },
-        {
-          "name": "MDN Web Docs",
-          "url": "https://developer.mozilla.org/zh-CN/docs/Web/HTTP",
-          "desc": "Web 开发文档",
-          "icon": "",
-          "tags": ["前端", "文档"],
-          "favorite": true
-        }
-      ]
-    },
-    {
-      "category": "云原生/DevOps",
-      "icon": "☁️",
-      "items": [
-        {
-          "name": "Docker",
-          "url": "https://www.docker.com/",
-          "desc": "容器化平台",
-          "icon": "",
-          "tags": ["容器", "DevOps"],
-          "favorite": true
-        },
-        {
-          "name": "Docker Hub",
-          "url": "https://hub.docker.com/",
-          "desc": "Docker 镜像仓库",
-          "icon": "",
-          "tags": ["Docker", "镜像"],
-          "favorite": false
-        },
-        {
-          "name": "Docker 中文",
-          "url": "https://docs.docker.com/",
-          "desc": "Docker 文档",
-          "icon": "",
-          "tags": ["Docker", "文档"],
-          "favorite": false
-        },
-        {
-          "name": "Kubernetes",
-          "url": "https://kubernetes.io/zh-cn/docs/home/",
-          "desc": "K8s 中文文档",
-          "icon": "",
-          "tags": ["K8s", "容器"],
-          "favorite": true
-        },
-        {
-          "name": "Istio",
-          "url": "https://istio.io/latest/zh/docs/",
-          "desc": "Istio 服务网格",
-          "icon": "",
-          "tags": ["K8s", "服务网格"],
-          "favorite": false
-        },
-        {
-          "name": "Helm",
-          "url": "https://helm.sh/docs/intro/install/",
-          "desc": "K8s 包管理",
-          "icon": "",
-          "tags": ["K8s", "包管理"],
-          "favorite": false
-        },
-        {
-          "name": "K3s",
-          "url": "https://www.rancher.cn/k3s/",
-          "desc": "轻量级 K8s",
-          "icon": "",
-          "tags": ["K8s", "轻量"],
-          "favorite": false
-        },
-        {
-          "name": "Jenkins",
-          "url": "http://mirrors.jenkins-ci.org/status.html",
-          "desc": "Jenkins CI/CD",
-          "icon": "",
-          "tags": ["DevOps", "CI/CD"],
-          "favorite": false
-        },
-        {
-          "name": "阿里云镜像",
-          "url": "https://cr.console.aliyun.com/cn-qingdao/instances/mirrors",
-          "desc": "阿里 Docker 镜像",
-          "icon": "",
-          "tags": ["Docker", "镜像", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "清华镜像",
-          "url": "https://mirrors.tuna.tsinghua.edu.cn/",
-          "desc": "清华大学开源镜像",
-          "icon": "",
-          "tags": ["镜像"],
-          "favorite": false
-        },
-        {
-          "name": "阿里云镜像站",
-          "url": "https://developer.aliyun.com/mirror/",
-          "desc": "阿里云镜像站",
-          "icon": "",
-          "tags": ["镜像", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "腾讯云镜像",
-          "url": "https://mirrors.cloud.tencent.com/",
-          "desc": "腾讯云镜像站",
-          "icon": "",
-          "tags": ["镜像", "腾讯"],
-          "favorite": false
-        },
-        {
-          "name": "Ngrok",
-          "url": "https://dashboard.ngrok.com/get-started/setup",
-          "desc": "内网穿透工具",
-          "icon": "",
-          "tags": ["工具", "网络"],
-          "favorite": false
-        },
-        {
-          "name": "阿里云 DevOps",
-          "url": "https://devops.aliyun.com/workbench",
-          "desc": "阿里云 DevOps 平台",
-          "icon": "",
-          "tags": ["DevOps", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "阿里云 SLS",
-          "url": "https://sls.console.aliyun.com/lognext/",
-          "desc": "阿里云日志服务",
-          "icon": "",
-          "tags": ["DevOps", "阿里", "日志"],
-          "favorite": false
-        },
-        {
-          "name": "Apache",
-          "url": "https://www.apache.org/",
-          "desc": "Apache 软件基金会",
-          "icon": "",
-          "tags": ["开源"],
-          "favorite": false
-        }
+        {"name": "PromptingGuide", "url": "https://www.promptingguide.ai/zh", "desc": "提示词工程指南中文版", "icon": "", "tags": ["AI", "提示词", "教程"], "favorite": true},
+        {"name": "DeepLearning.AI", "url": "https://www.deeplearning.ai/courses/", "desc": "深度学习课程平台", "icon": "", "tags": ["AI", "课程"], "favorite": true},
+        {"name": "Anthropic Prompt Engineering", "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview", "desc": "Claude 提示词工程文档", "icon": "", "tags": ["AI", "提示词", "文档"], "favorite": true},
+        {"name": "LLM Universe", "url": "https://github.com/datawhalechina/llm-universe", "desc": "Datawhale LLM 教程", "icon": "", "tags": ["AI", "教程", "中文"], "favorite": true},
+        {"name": "AI Bot", "url": "https://ai-bot.cn/", "desc": "AI 工具导航", "icon": "", "tags": ["AI", "导航"], "favorite": false},
+        {"name": "WayToAGI", "url": "https://www.waytoagi.com/", "desc": "AI 学习路径", "icon": "", "tags": ["AI", "学习"], "favorite": false},
+        {"name": "DeepMind", "url": "https://deepmind.google/", "desc": "Google DeepMind", "icon": "", "tags": ["AI", "Google", "研究"], "favorite": false},
+        {"name": "SnackPrompt", "url": "https://snackprompt.com/", "desc": "提示词社区", "icon": "", "tags": ["AI", "提示词"], "favorite": false},
+        {"name": "飞书智能体社区", "url": "https://www.feishu.cn/community/prompts?from=weeknew", "desc": "飞书 AI 助手社区", "icon": "", "tags": ["AI", "社区"], "favorite": false},
+        {"name": "LLM Cookbook", "url": "https://github.com/datawhalechina/llm-cookbook", "desc": "LLM 实践教程", "icon": "", "tags": ["AI", "教程"], "favorite": false},
+        {"name": "Generative AI Course", "url": "https://www.coursera.org/learn/generative-ai-for-everyone", "desc": "生成式 AI 入门课程", "icon": "", "tags": ["AI", "课程"], "favorite": false},
+        {"name": "ModelScope", "url": "https://modelscope.cn/home", "desc": "魔搭社区 AI 模型", "icon": "", "tags": ["AI", "模型", "国产"], "favorite": false},
+        {"name": "LangGPT", "url": "https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe", "desc": "结构化提示词教程", "icon": "", "tags": ["AI", "提示词"], "favorite": false},
+        {"name": "Geek AGI", "url": "https://geek-agi.feishu.cn/wiki/B9rYwwg6xidZYJkbrlscxTQFnOc", "desc": "极客 AGI 知识库", "icon": "", "tags": ["AI", "知识库"], "favorite": false},
+        {"name": "TensorFlow", "url": "https://tensorflow.google.cn/", "desc": "TensorFlow 中文文档", "icon": "", "tags": ["AI", "框架", "文档"], "favorite": false},
+        {"name": "HelloDify", "url": "https://hellodify.com/zh", "desc": "Dify 教程", "icon": "", "tags": ["AI", "Dify", "教程"], "favorite": false},
+        {"name": "Atypica", "url": "https://atypica.musedam.cc/", "desc": "AI 工具集合", "icon": "", "tags": ["AI", "工具"], "favorite": false},
+        {"name": "Google Learn Your Way", "url": "https://learnyourway.withgoogle.com/", "desc": "Google 学习平台", "icon": "", "tags": ["Google", "学习", "课程"], "favorite": false},
+        {"name": "CodeWiki", "url": "https://codewiki.google/", "desc": "Google 代码知识库", "icon": "", "tags": ["Google", "文档", "代码"], "favorite": false},
+        {"name": "DeepWiki", "url": "https://deepwiki.com/", "desc": "AI 知识百科", "icon": "", "tags": ["AI", "知识库"], "favorite": false}
       ]
     },
     {
       "category": "开发工具",
       "icon": "🛠️",
       "items": [
-        {
-          "name": "Git",
-          "url": "https://git-scm.com/docs",
-          "desc": "Git 官方文档",
-          "icon": "",
-          "tags": ["Git", "版本控制"],
-          "favorite": true
-        },
-        {
-          "name": "GitHub Docs",
-          "url": "https://docs.github.com/zh",
-          "desc": "GitHub 中文文档",
-          "icon": "",
-          "tags": ["GitHub", "文档"],
-          "favorite": false
-        },
-        {
-          "name": "Maven",
-          "url": "https://mvnrepository.com/",
-          "desc": "Maven 仓库",
-          "icon": "",
-          "tags": ["Java", "构建"],
-          "favorite": false
-        },
-        {
-          "name": "Maven Search",
-          "url": "https://search.maven.org/",
-          "desc": "Maven 搜索",
-          "icon": "",
-          "tags": ["Java", "构建"],
-          "favorite": false
-        },
-        {
-          "name": "VS Code",
-          "url": "https://code.visualstudio.com/docs/",
-          "desc": "VS Code 文档",
-          "icon": "",
-          "tags": ["编辑器", "IDE"],
-          "favorite": false
-        },
-        {
-          "name": "iTerm2",
-          "url": "https://iterm2.com/documentation.html",
-          "desc": "iTerm2 终端",
-          "icon": "",
-          "tags": ["终端", "macOS"],
-          "favorite": false
-        },
-        {
-          "name": "Oh My Zsh",
-          "url": "https://ohmyz.sh/",
-          "desc": "Zsh 框架",
-          "icon": "",
-          "tags": ["终端", "Shell"],
-          "favorite": false
-        },
-        {
-          "name": "JQ",
-          "url": "https://jqlang.github.io/jq/",
-          "desc": "JSON 处理工具",
-          "icon": "",
-          "tags": ["工具", "JSON"],
-          "favorite": false
-        },
-        {
-          "name": "Protobuf",
-          "url": "https://protobuf.dev/",
-          "desc": "Protocol Buffers",
-          "icon": "",
-          "tags": ["工具", "序列化"],
-          "favorite": false
-        },
-        {
-          "name": "gRPC",
-          "url": "https://doc.oschina.net/grpc?t=56831",
-          "desc": "gRPC 文档",
-          "icon": "",
-          "tags": ["RPC", "Google"],
-          "favorite": false
-        },
-        {
-          "name": "JWT",
-          "url": "https://jwt.io/",
-          "desc": "JSON Web Token",
-          "icon": "",
-          "tags": ["认证"],
-          "favorite": false
-        },
-        {
-          "name": "OpenAPI",
-          "url": "https://swagger.io/",
-          "desc": "API 文档规范",
-          "icon": "",
-          "tags": ["API", "文档"],
-          "favorite": false
-        },
-        {
-          "name": "Postwoman",
-          "url": "https://postwoman.io/",
-          "desc": "API 测试工具",
-          "icon": "",
-          "tags": ["API", "测试"],
-          "favorite": false
-        },
-        {
-          "name": "YApi",
-          "url": "https://github.com/YMFE/yapi",
-          "desc": "接口管理平台",
-          "icon": "",
-          "tags": ["API", "管理"],
-          "favorite": false
-        },
-        {
-          "name": "Rap2",
-          "url": "http://rap2.taobao.org/account/login",
-          "desc": "阿里接口管理",
-          "icon": "",
-          "tags": ["API", "管理", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "JProfiler",
-          "url": "https://www.ej-technologies.com/resources/jprofiler/v/12.0/help_zh_CN/doc/main/introduction.html",
-          "desc": "Java 性能分析",
-          "icon": "",
-          "tags": ["Java", "性能"],
-          "favorite": false
-        },
-        {
-          "name": "JVM Visual Chart",
-          "url": "https://deepoove.com/jmh-visual-chart/",
-          "desc": "JMH 可视化",
-          "icon": "",
-          "tags": ["Java", "JMH"],
-          "favorite": false
-        },
-        {
-          "name": "GCEasy",
-          "url": "https://gceasy.io/",
-          "desc": "GC 日志分析",
-          "icon": "",
-          "tags": ["Java", "GC"],
-          "favorite": false
-        },
-        {
-          "name": "FastThread",
-          "url": "https://fastthread.io/",
-          "desc": "线程分析工具",
-          "icon": "",
-          "tags": ["Java", "线程"],
-          "favorite": false
-        },
-        {
-          "name": "JVMMemory",
-          "url": "https://jvmmemory.com/",
-          "desc": "JVM 内存分析",
-          "icon": "",
-          "tags": ["Java", "JVM"],
-          "favorite": false
-        },
-        {
-          "name": "VJTools",
-          "url": "https://github.com/vipshop/vjtools",
-          "desc": "唯品花 Java 工具",
-          "icon": "",
-          "tags": ["Java", "工具"],
-          "favorite": false
-        },
-        {
-          "name": "DataEase",
-          "url": "https://github.com/dataease/dataease",
-          "desc": "数据可视化平台",
-          "icon": "",
-          "tags": ["BI", "可视化"],
-          "favorite": false
-        },
-        {
-          "name": "Linux Command",
-          "url": "https://wangchujiang.com/linux-command/",
-          "desc": "Linux 命令查询",
-          "icon": "",
-          "tags": ["Linux", "命令"],
-          "favorite": true
-        },
-        {
-          "name": "Cheat.sh",
-          "url": "https://cheat.sh/",
-          "desc": "命令速查",
-          "icon": "",
-          "tags": ["命令", "速查"],
-          "favorite": false
-        }
+        {"name": "Git", "url": "https://git-scm.com/docs", "desc": "Git 官方文档", "icon": "", "tags": ["Git", "版本控制"], "favorite": true},
+        {"name": "GitHub", "url": "https://github.com/", "desc": "全球最大的代码托管平台", "icon": "", "tags": ["代码", "开源"], "favorite": true},
+        {"name": "Docker", "url": "https://www.docker.com/", "desc": "容器化平台", "icon": "", "tags": ["容器", "DevOps"], "favorite": true},
+        {"name": "Warp", "url": "https://www.warp.dev/", "desc": "AI 驱动的下一代终端", "icon": "", "tags": ["终端", "CLI", "AI"], "favorite": true},
+        {"name": "VS Code", "url": "https://code.visualstudio.com/docs/", "desc": "VS Code 文档", "icon": "", "tags": ["编辑器", "IDE"], "favorite": true},
+        {"name": "Linux Command", "url": "https://wangchujiang.com/linux-command/", "desc": "Linux 命令查询", "icon": "", "tags": ["Linux", "命令"], "favorite": true},
+        {"name": "iTerm2", "url": "https://iterm2.com/documentation.html", "desc": "iTerm2 终端", "icon": "", "tags": ["终端", "macOS"], "favorite": false},
+        {"name": "Oh My Zsh", "url": "https://ohmyz.sh/", "desc": "Zsh 框架", "icon": "", "tags": ["终端", "Shell"], "favorite": false},
+        {"name": "Termius", "url": "https://termius.com/", "desc": "跨平台 SSH 客户端", "icon": "", "tags": ["SSH", "终端", "远程"], "favorite": false},
+        {"name": "JQ", "url": "https://jqlang.github.io/jq/", "desc": "JSON 处理工具", "icon": "", "tags": ["工具", "JSON"], "favorite": false},
+        {"name": "Protobuf", "url": "https://protobuf.dev/", "desc": "Protocol Buffers", "icon": "", "tags": ["工具", "序列化"], "favorite": false},
+        {"name": "gRPC", "url": "https://doc.oschina.net/grpc?t=56831", "desc": "gRPC 文档", "icon": "", "tags": ["RPC", "Google"], "favorite": false},
+        {"name": "JWT", "url": "https://jwt.io/", "desc": "JSON Web Token", "icon": "", "tags": ["认证"], "favorite": false},
+        {"name": "OpenAPI", "url": "https://swagger.io/", "desc": "API 文档规范", "icon": "", "tags": ["API", "文档"], "favorite": false},
+        {"name": "Postwoman", "url": "https://postwoman.io/", "desc": "API 测试工具", "icon": "", "tags": ["API", "测试"], "favorite": false},
+        {"name": "YApi", "url": "https://github.com/YMFE/yapi", "desc": "接口管理平台", "icon": "", "tags": ["API", "管理"], "favorite": false},
+        {"name": "Maven", "url": "https://mvnrepository.com/", "desc": "Maven 仓库", "icon": "", "tags": ["Java", "构建"], "favorite": false},
+        {"name": "Cheat.sh", "url": "https://cheat.sh/", "desc": "命令速查", "icon": "", "tags": ["命令", "速查"], "favorite": false}
       ]
     },
     {
-      "category": "实用工具",
-      "icon": "🔧",
+      "category": "框架与平台",
+      "icon": "📦",
       "items": [
-        {
-          "name": "Colab",
-          "url": "https://colab.research.google.com/",
-          "desc": "Google 在线 Notebook",
-          "icon": "",
-          "tags": ["AI", "Python", "Google"],
-          "favorite": false
-        },
-        {
-          "name": "Context7",
-          "url": "https://context7.com/",
-          "desc": "代码文档查询",
-          "icon": "",
-          "tags": ["文档", "开发"],
-          "favorite": true
-        },
-        {
-          "name": "Same.new",
-          "url": "https://same.new/",
-          "desc": "URL 去重工具",
-          "icon": "",
-          "tags": ["工具", "URL"],
-          "favorite": false
-        },
-        {
-          "name": "Convertio",
-          "url": "https://convertio.co/zh/azw3-epub/",
-          "desc": "文件格式转换",
-          "icon": "",
-          "tags": ["工具", "转换"],
-          "favorite": false
-        },
-        {
-          "name": "PDF2MD",
-          "url": "https://pdf2md.morethan.io/",
-          "desc": "PDF 转 Markdown",
-          "icon": "",
-          "tags": ["工具", "PDF"],
-          "favorite": false
-        },
-        {
-          "name": "Carbon",
-          "url": "https://carbon.now.sh/",
-          "desc": "代码截图美化",
-          "icon": "",
-          "tags": ["工具", "代码"],
-          "favorite": false
-        },
-        {
-          "name": "SM.MS",
-          "url": "https://smms.app/",
-          "desc": "图床服务",
-          "icon": "",
-          "tags": ["工具", "图片"],
-          "favorite": false
-        },
-        {
-          "name": "Emojipedia",
-          "url": "https://emojipedia.org/",
-          "desc": "Emoji 百科",
-          "icon": "",
-          "tags": ["工具", "Emoji"],
-          "favorite": false
-        },
-        {
-          "name": "Icon Icons",
-          "url": "https://icon-icons.com/",
-          "desc": "图标资源",
-          "icon": "",
-          "tags": ["工具", "图标"],
-          "favorite": false
-        },
-        {
-          "name": "HTTP Status",
-          "url": "https://httpstatuses.com/",
-          "desc": "HTTP 状态码",
-          "icon": "",
-          "tags": ["HTTP", "状态码"],
-          "favorite": false
-        },
-        {
-          "name": "Cobalt Tools",
-          "url": "https://cobalt.tools/",
-          "desc": "图片压缩转换",
-          "icon": "",
-          "tags": ["工具", "图片"],
-          "favorite": false
-        },
-        {
-          "name": "JSON Crack",
-          "url": "https://jsoncrack.com/",
-          "desc": "JSON 可视化",
-          "icon": "",
-          "tags": ["工具", "JSON"],
-          "favorite": false
-        },
-        {
-          "name": "SQL Flow",
-          "url": "https://sqlflow.gudusoft.com/#/",
-          "desc": "SQL 可视化",
-          "icon": "",
-          "tags": ["工具", "SQL"],
-          "favorite": false
-        },
-        {
-          "name": "Nginx UI",
-          "url": "https://nginxui.com/zh_CN/",
-          "desc": "Nginx 可视化",
-          "icon": "",
-          "tags": ["Nginx", "工具"],
-          "favorite": false
-        },
-        {
-          "name": "ToDiagram",
-          "url": "https://todiagram.com/editor",
-          "desc": "文本转流程图",
-          "icon": "",
-          "tags": ["工具", "图表"],
-          "favorite": false
-        },
-        {
-          "name": "Mermaid Chart",
-          "url": "https://www.mermaidchart.com/",
-          "desc": "Mermaid 图表编辑",
-          "icon": "",
-          "tags": ["工具", "图表"],
-          "favorite": false
-        },
-        {
-          "name": "ProcessOn",
-          "url": "https://www.processon.com/",
-          "desc": "在线流程图",
-          "icon": "",
-          "tags": ["工具", "图表"],
-          "favorite": true
-        },
-        {
-          "name": "WebSequenceDiagrams",
-          "url": "https://www.websequencediagrams.com/",
-          "desc": "时序图生成",
-          "icon": "",
-          "tags": ["工具", "图表"],
-          "favorite": false
-        },
-        {
-          "name": "CodeImg",
-          "url": "https://codeimg.io/",
-          "desc": "代码美图",
-          "icon": "",
-          "tags": ["工具", "代码"],
-          "favorite": false
-        },
-        {
-          "name": "PyPI",
-          "url": "https://pypi.org/",
-          "desc": "Python 包索引",
-          "icon": "",
-          "tags": ["Python", "包"],
-          "favorite": false
-        },
-        {
-          "name": "Transform Tools",
-          "url": "https://transform.tools/",
-          "desc": "代码转换工具",
-          "icon": "",
-          "tags": ["工具", "代码"],
-          "favorite": false
-        },
-        {
-          "name": "Pake",
-          "url": "https://github.com/tw93/Pake",
-          "desc": "网页打包成应用",
-          "icon": "",
-          "tags": ["工具", "打包"],
-          "favorite": false
-        },
-        {
-          "name": "阿里云盘",
-          "url": "https://www.aliyundrive.com/",
-          "desc": "阿里云网盘",
-          "icon": "",
-          "tags": ["工具", "网盘"],
-          "favorite": false
-        },
-        {
-          "name": "阿里云盘搜",
-          "url": "https://www.alipansou.com/",
-          "desc": "阿里云盘搜索",
-          "icon": "",
-          "tags": ["工具", "搜索"],
-          "favorite": false
-        },
-        {
-          "name": "DigitalOcean Nginx",
-          "url": "https://www.digitalocean.com/community/tools/nginx",
-          "desc": "Nginx 配置生成",
-          "icon": "",
-          "tags": ["Nginx", "工具"],
-          "favorite": false
-        },
-        {
-          "name": "EtempMail",
-          "url": "https://etempmail.com/zh",
-          "desc": "临时邮箱",
-          "icon": "",
-          "tags": ["工具", "邮箱"],
-          "favorite": false
-        },
-        {
-          "name": "Sherlock",
-          "url": "https://sherlockproject.xyz/",
-          "desc": "用户名搜索",
-          "icon": "",
-          "tags": ["工具", "搜索"],
-          "favorite": false
-        }
+        {"name": "Spring", "url": "https://spring.io/", "desc": "Spring 官方网站", "icon": "", "tags": ["Java", "Spring", "框架"], "favorite": true},
+        {"name": "Supabase", "url": "https://supabase.com/", "desc": "开源 Firebase 替代方案", "icon": "", "tags": ["后端", "数据库", "开源"], "favorite": true},
+        {"name": "FastAPI", "url": "https://fastapi.tiangolo.com/", "desc": "现代 Python Web 框架", "icon": "", "tags": ["Python", "Web", "API"], "favorite": true},
+        {"name": "Temporal", "url": "https://temporal.io/", "desc": "分布式工作流引擎", "icon": "", "tags": ["工作流", "分布式", "后端"], "favorite": false},
+        {"name": "Prefect", "url": "https://www.prefect.io/", "desc": "Python 工作流框架", "icon": "", "tags": ["Python", "工作流"], "favorite": false},
+        {"name": "React", "url": "https://zh-hans.react.dev/", "desc": "React 中文文档", "icon": "", "tags": ["前端", "React"], "favorite": false},
+        {"name": "Streamlit", "url": "https://streamlit.io/", "desc": "Python Web 框架", "icon": "", "tags": ["Python", "前端"], "favorite": false}
       ]
     },
     {
-      "category": "项目管理",
-      "icon": "📋",
+      "category": "云原生/DevOps",
+      "icon": "☁️",
       "items": [
-        {
-          "name": "Jira",
-          "url": "https://www.atlassian.com/software/jira",
-          "desc": "Atlassian 项目管理",
-          "icon": "",
-          "tags": ["项目", "管理"],
-          "favorite": false
-        },
-        {
-          "name": "Leangoo",
-          "url": "https://www.leangoo.com/",
-          "desc": "敏捷协作工具",
-          "icon": "",
-          "tags": ["项目", "敏捷"],
-          "favorite": false
-        },
-        {
-          "name": "Tower",
-          "url": "https://tower.im/",
-          "desc": "团队协作工具",
-          "icon": "",
-          "tags": ["项目", "协作"],
-          "favorite": false
-        },
-        {
-          "name": "ScrumCN",
-          "url": "https://www.scrumcn.com/agile/",
-          "desc": "敏捷开发工具",
-          "icon": "",
-          "tags": ["项目", "敏捷"],
-          "favorite": false
-        },
-        {
-          "name": "Worktile",
-          "url": "https://worktile.com/agile",
-          "desc": "项目管理工具",
-          "icon": "",
-          "tags": ["项目", "管理"],
-          "favorite": false
-        },
-        {
-          "name": "Zentao",
-          "url": "https://www.zentao.net/",
-          "desc": "禅道项目管理",
-          "icon": "",
-          "tags": ["项目", "管理"],
-          "favorite": false
-        },
-        {
-          "name": "Planview",
-          "url": "https://www.planview.com/",
-          "desc": "项目组合管理",
-          "icon": "",
-          "tags": ["项目", "管理"],
-          "favorite": false
-        },
-        {
-          "name": "TopoLe5le",
-          "url": "http://topology.le5le.com/workspace",
-          "desc": "拓扑图绘制",
-          "icon": "",
-          "tags": ["工具", "图表"],
-          "favorite": false
-        }
+        {"name": "Kubernetes", "url": "https://kubernetes.io/zh-cn/docs/home/", "desc": "K8s 中文文档", "icon": "", "tags": ["K8s", "容器"], "favorite": true},
+        {"name": "Docker Hub", "url": "https://hub.docker.com/", "desc": "Docker 镜像仓库", "icon": "", "tags": ["Docker", "镜像"], "favorite": true},
+        {"name": "Istio", "url": "https://istio.io/latest/zh/docs/", "desc": "Istio 服务网格", "icon": "", "tags": ["K8s", "服务网格"], "favorite": false},
+        {"name": "Helm", "url": "https://helm.sh/docs/intro/install/", "desc": "K8s 包管理", "icon": "", "tags": ["K8s", "包管理"], "favorite": false},
+        {"name": "K3s", "url": "https://www.rancher.cn/k3s/", "desc": "轻量级 K8s", "icon": "", "tags": ["K8s", "轻量"], "favorite": false},
+        {"name": "LearnK8s", "url": "https://learnk8s.io/", "desc": "Kubernetes 教程", "icon": "", "tags": ["K8s", "教程"], "favorite": false}
       ]
     },
     {
-      "category": "学习平台",
-      "icon": "🎓",
+      "category": "Java 后端开发",
+      "icon": "☕",
       "items": [
-        {
-          "name": "极客时间",
-          "url": "https://time.geekbang.org/",
-          "desc": "技术学习平台",
-          "icon": "",
-          "tags": ["学习", "技术"],
-          "favorite": true
-        },
-        {
-          "name": "力扣",
-          "url": "https://leetcode-cn.com/",
-          "desc": "LeetCode 中文",
-          "icon": "",
-          "tags": ["算法", "刷题"],
-          "favorite": true
-        },
-        {
-          "name": "Algs4 Princeton",
-          "url": "https://algs4.cs.princeton.edu/10fundamentals/",
-          "desc": "算法 4 教程",
-          "icon": "",
-          "tags": ["算法", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "Labuladong",
-          "url": "https://labuladong.gitee.io/algo/",
-          "desc": "算法刷题指南",
-          "icon": "",
-          "tags": ["算法", "教程"],
-          "favorite": true
-        },
-        {
-          "name": "Halfrost LeetCode",
-          "url": "https://books.halfrost.com/leetcode/",
-          "desc": "LeetCode 题解",
-          "icon": "",
-          "tags": ["算法", "题解"],
-          "favorite": false
-        },
-        {
-          "name": "The Algorithms Java",
-          "url": "https://github.com/TheAlgorithms/Java",
-          "desc": "Java 算法实现",
-          "icon": "",
-          "tags": ["算法", "Java"],
-          "favorite": false
-        },
-        {
-          "name": "Wolfram MathWorld",
-          "url": "http://mathworld.wolfram.com/",
-          "desc": "数学世界",
-          "icon": "",
-          "tags": ["数学"],
-          "favorite": false
-        },
-        {
-          "name": "良许学习网",
-          "url": "https://learn.lianglianglee.com/",
-          "desc": "Linux 学习资料",
-          "icon": "",
-          "tags": ["Linux", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "免费极客时间",
-          "url": "https://freegeektime.com/posts/",
-          "desc": "极客时间免费版",
-          "icon": "",
-          "tags": ["学习", "技术"],
-          "favorite": false
-        },
-        {
-          "name": "学而思",
-          "url": "https://study.xiaoe-tech.com/",
-          "desc": "在线学习平台",
-          "icon": "",
-          "tags": ["学习"],
-          "favorite": false
-        },
-        {
-          "name": "知识星球",
-          "url": "https://wx.zsxq.com/columns/48411118851818",
-          "desc": "知识付费社区",
-          "icon": "",
-          "tags": ["学习", "社区"],
-          "favorite": false
-        },
-        {
-          "name": "拉勾教育",
-          "url": "https://kaiwu.lagou.com/",
-          "desc": "拉勾学习平台",
-          "icon": "",
-          "tags": ["学习", "技术"],
-          "favorite": false
-        },
-        {
-          "name": "阿里云学习",
-          "url": "https://edu.aliyun.com/explore/",
-          "desc": "阿里云大学",
-          "icon": "",
-          "tags": ["学习", "阿里"],
-          "favorite": false
-        },
-        {
-          "name": "GitCode 知识星球",
-          "url": "https://gitcode.net/KnowledgePlanet",
-          "desc": "GitCode 知识社区",
-          "icon": "",
-          "tags": ["学习", "社区"],
-          "favorite": false
-        },
-        {
-          "name": "Roadmap.sh",
-          "url": "https://roadmap.sh/",
-          "desc": "技术学习路线图",
-          "icon": "",
-          "tags": ["学习", "路线"],
-          "favorite": true
-        },
-        {
-          "name": "CodeCrafters",
-          "url": "https://codecrafters.io/",
-          "desc": "编程挑战平台",
-          "icon": "",
-          "tags": ["编程", "挑战"],
-          "favorite": false
-        },
-        {
-          "name": "30 Seconds of Code",
-          "url": "https://www.30secondsofcode.org/",
-          "desc": "代码片段学习",
-          "icon": "",
-          "tags": ["代码", "片段"],
-          "favorite": false
-        },
-        {
-          "name": "Tech Interview Handbook",
-          "url": "https://github.com/yangshun/tech-interview-handbook",
-          "desc": "技术面试手册",
-          "icon": "",
-          "tags": ["面试"],
-          "favorite": false
-        },
-        {
-          "name": "Free Programming Books",
-          "url": "https://github.com/EbookFoundation/free-programming-books",
-          "desc": "免费编程书籍",
-          "icon": "",
-          "tags": ["书籍", "免费"],
-          "favorite": false
-        },
-        {
-          "name": "The Book of Secret Knowledge",
-          "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
-          "desc": "秘籍知识书",
-          "icon": "",
-          "tags": ["知识", "书籍"],
-          "favorite": false
-        },
-        {
-          "name": "App Ideas",
-          "url": "https://github.com/florinpop17/app-ideas",
-          "desc": "练手项目想法",
-          "icon": "",
-          "tags": ["项目", "想法"],
-          "favorite": false
-        },
-        {
-          "name": "Public APIs",
-          "url": "https://github.com/public-apis/public-apis",
-          "desc": "公共 API 列表",
-          "icon": "",
-          "tags": ["API", "列表"],
-          "favorite": false
-        },
-        {
-          "name": "AI Town",
-          "url": "https://github.com/a16z-infra/ai-town",
-          "desc": "AI 模拟城镇",
-          "icon": "",
-          "tags": ["AI", "项目"],
-          "favorite": false
-        },
-        {
-          "name": "HowToCook",
-          "url": "https://github.com/Anduin2017/HowToCook",
-          "desc": "程序员做饭指南",
-          "icon": "",
-          "tags": ["生活", "做饭"],
-          "favorite": false
-        },
-        {
-          "name": "Awesome Database Learning",
-          "url": "https://github.com/pingcap/awesome-database-learning",
-          "desc": "数据库学习资源",
-          "icon": "",
-          "tags": ["数据库", "学习"],
-          "favorite": false
-        },
-        {
-          "name": "Ebook Foundation",
-          "url": "https://epubw.com/",
-          "desc": "电子书下载",
-          "icon": "",
-          "tags": ["书籍", "下载"],
-          "favorite": false
-        },
-        {
-          "name": "IT eBooks",
-          "url": "https://it-ebooks.info/",
-          "desc": "IT 电子书",
-          "icon": "",
-          "tags": ["书籍", "IT"],
-          "favorite": false
-        },
-        {
-          "name": "Sci-Hub",
-          "url": "https://www.sci-hub.pub/",
-          "desc": "学术论文下载",
-          "icon": "",
-          "tags": ["论文", "学术"],
-          "favorite": false
-        },
-        {
-          "name": "Imperial Library",
-          "url": "https://www.imperial-library.info/",
-          "desc": "数字图书馆",
-          "icon": "",
-          "tags": ["书籍", "图书馆"],
-          "favorite": false
-        },
-        {
-          "name": "中文文本",
-          "url": "https://ctext.org/zhs",
-          "desc": "中国古籍",
-          "icon": "",
-          "tags": ["书籍", "古籍"],
-          "favorite": false
-        },
-        {
-          "name": "雪球",
-          "url": "https://xueqiu.com/9722090056/160397940",
-          "desc": "投资社区",
-          "icon": "",
-          "tags": ["投资"],
-          "favorite": false
-        }
+        {"name": "Spring Initializr", "url": "https://start.spring.io/", "desc": "Spring 项目初始化", "icon": "", "tags": ["Java", "Spring"], "favorite": true},
+        {"name": "Arthas", "url": "https://arthas.aliyun.com/", "desc": "阿里 Java 诊断工具", "icon": "", "tags": ["Java", "工具", "阿里"], "favorite": true},
+        {"name": "Doocs", "url": "https://doocs.org/#/README_CN", "desc": "Java 面试突击", "icon": "", "tags": ["Java", "面试"], "favorite": true},
+        {"name": "PDai", "url": "https://pdai.tech/", "desc": "Java 全栈知识体系", "icon": "", "tags": ["Java", "教程"], "favorite": true},
+        {"name": "JavaGuide", "url": "https://snailclimb.gitee.io/javaguide/#/", "desc": "Java 学习指南", "icon": "", "tags": ["Java", "教程"], "favorite": true},
+        {"name": "Hutool", "url": "https://hutool.cn/", "desc": "Java 工具类库", "icon": "", "tags": ["Java", "工具"], "favorite": true},
+        {"name": "XXL-Job", "url": "https://www.xuxueli.com/xxl-job/", "desc": "分布式任务调度", "icon": "", "tags": ["Java", "任务调度"], "favorite": true},
+        {"name": "Spring Cloud 中文", "url": "https://www.springcloud.cc/", "desc": "Spring Cloud 中文文档", "icon": "", "tags": ["Java", "Spring", "文档"], "favorite": false},
+        {"name": "Baeldung", "url": "https://www.baeldung.com/java-httpclient-post", "desc": "Java 教程网站", "icon": "", "tags": ["Java", "教程"], "favorite": false},
+        {"name": "Hollis", "url": "https://www.yuque.com/hollis666/vagnu8", "desc": "Hollis 技术博客", "icon": "", "tags": ["Java", "博客"], "favorite": false},
+        {"name": "小林Coding", "url": "https://xiaolincoding.com/", "desc": "小林技术博客", "icon": "", "tags": ["Java", "博客"], "favorite": false},
+        {"name": "JavaBetter", "url": "https://javabetter.cn/blog.html", "desc": "Java 学习网站", "icon": "", "tags": ["Java", "教程"], "favorite": false},
+        {"name": "BugStack", "url": "https://bugstack.cn/", "desc": "BugStack 博客", "icon": "", "tags": ["Java", "博客"], "favorite": false},
+        {"name": "程序猿DD", "url": "http://blog.didispace.com/", "desc": "DD 技术博客", "icon": "", "tags": ["Java", "博客"], "favorite": false},
+        {"name": "芋道源码", "url": "http://svip.iocoder.cn/index/", "desc": "芋道源码教程", "icon": "", "tags": ["Java", "教程"], "favorite": false},
+        {"name": "IcyFenix", "url": "https://icyfenix.cn/", "desc": "深入理解架构设计", "icon": "", "tags": ["架构", "教程"], "favorite": false},
+        {"name": "Spring Boot Labs", "url": "https://github.com/YunaiV/SpringBoot-Labs", "desc": "Spring Boot 教程", "icon": "", "tags": ["Java", "Spring", "教程"], "favorite": false},
+        {"name": "Java Design Patterns", "url": "https://github.com/iluwatar/java-design-patterns", "desc": "Java 设计模式", "icon": "", "tags": ["Java", "设计模式"], "favorite": false},
+        {"name": "Martin Fowler", "url": "https://martinfowler.com/", "desc": "Martin Fowler 博客", "icon": "", "tags": ["架构", "博客"], "favorite": false},
+        {"name": "System Design Primer", "url": "https://github.com/donnemartin/system-design-primer", "desc": "系统设计入门", "icon": "", "tags": ["架构", "教程"], "favorite": false},
+        {"name": "Spring Cloud Alibaba", "url": "https://github.com/alibaba/spring-cloud-alibaba/wiki", "desc": "Spring Cloud 阿里巴巴", "icon": "", "tags": ["Java", "Spring", "阿里"], "favorite": false},
+        {"name": "代码指南", "url": "https://github.com/fuzhengwei/CodeGuide/wiki", "desc": "代码学习指南", "icon": "", "tags": ["Java", "教程"], "favorite": false},
+        {"name": "Transmittable ThreadLocal", "url": "https://github.com/alibaba/transmittable-thread-local", "desc": "阿里 TTL 线程池", "icon": "", "tags": ["Java", "阿里", "并发"], "favorite": false},
+        {"name": "Forest", "url": "https://forest.dtflyx.com/pages/1.5.x/spring_boot_usage/", "desc": "Java HTTP 客户端", "icon": "", "tags": ["Java", "HTTP"], "favorite": false}
+      ]
+    },
+    {
+      "category": "大数据与中间件",
+      "icon": "🗄️",
+      "items": [
+        {"name": "Kafka", "url": "http://kafka.apache.org/", "desc": "Apache Kafka", "icon": "", "tags": ["中间件", "消息队列"], "favorite": true},
+        {"name": "Elasticsearch", "url": "https://www.elastic.co/guide/en/elasticsearch/reference/7.7/brew.html", "desc": "Elasticsearch 搜索引擎", "icon": "", "tags": ["搜索", "ELK"], "favorite": true},
+        {"name": "Redis", "url": "https://redis.io/modules", "desc": "Redis 官方文档", "icon": "", "tags": ["数据库", "缓存"], "favorite": true},
+        {"name": "MySQL", "url": "https://dev.mysql.com/doc/", "desc": "MySQL 官方文档", "icon": "", "tags": ["数据库", "MySQL"], "favorite": true},
+        {"name": "RocketMQ", "url": "http://rocketmq.apache.org/docs/motivation/", "desc": "Apache RocketMQ", "icon": "", "tags": ["中间件", "消息队列"], "favorite": false},
+        {"name": "Pulsar", "url": "https://pulsar.apache.org/zh-CN/", "desc": "Apache Pulsar", "icon": "", "tags": ["中间件", "消息队列"], "favorite": false},
+        {"name": "Kibana", "url": "https://www.elastic.co/guide/en/kibana/7.7/brew.html", "desc": "Kibana 可视化", "icon": "", "tags": ["ELK", "可视化"], "favorite": false},
+        {"name": "Logstash", "url": "https://www.elastic.co/guide/en/logstash/7.7/installing-logstash.html", "desc": "Logstash 日志处理", "icon": "", "tags": ["ELK", "日志"], "favorite": false},
+        {"name": "Filebeat", "url": "https://www.elastic.co/guide/en/beats/filebeat/7.7/filebeat-installation.html", "desc": "Filebeat 日志采集", "icon": "", "tags": ["ELK", "日志"], "favorite": false},
+        {"name": "Redis 中文", "url": "http://redisdoc.com/", "desc": "Redis 中文文档", "icon": "", "tags": ["数据库", "缓存", "中文"], "favorite": false},
+        {"name": "Redisson", "url": "https://github.com/redisson/redisson/wiki/", "desc": "Redis Java 客户端", "icon": "", "tags": ["Redis", "Java"], "favorite": false},
+        {"name": "MongoDB", "url": "https://docs.mongoing.com/indexes/single-field-indexes", "desc": "MongoDB 中文文档", "icon": "", "tags": ["数据库", "MongoDB"], "favorite": false},
+        {"name": "Neo4j", "url": "https://neo4j.com/docs/", "desc": "Neo4j 图数据库", "icon": "", "tags": ["数据库", "图数据库"], "favorite": false},
+        {"name": "Canal", "url": "https://github.com/alibaba/canal", "desc": "阿里数据库同步", "icon": "", "tags": ["中间件", "阿里"], "favorite": false},
+        {"name": "Leaf", "url": "https://github.com/Meituan-Dianping/Leaf", "desc": "美团分布式 ID", "icon": "", "tags": ["中间件", "分布式"], "favorite": false},
+        {"name": "Flyway", "url": "https://flywaydb.org/documentation/usage/api/", "desc": "数据库迁移工具", "icon": "", "tags": ["数据库", "工具"], "favorite": false},
+        {"name": "Sentinel", "url": "https://sentinelguard.io/zh-cn/", "desc": "阿里流量控制", "icon": "", "tags": ["中间件", "阿里"], "favorite": false},
+        {"name": "Nacos", "url": "https://nacos.io/en-us/", "desc": "服务发现与配置", "icon": "", "tags": ["中间件"], "favorite": false},
+        {"name": "Hystrix", "url": "https://github.com/Netflix/Hystrix/wiki", "desc": "Netflix 熔断器", "icon": "", "tags": ["中间件", "熔断"], "favorite": false},
+        {"name": "Zuul", "url": "https://github.com/Netflix/zuul/wiki", "desc": "Netflix 网关", "icon": "", "tags": ["中间件", "网关"], "favorite": false},
+        {"name": "Raft", "url": "https://raft.github.io/", "desc": "Raft 一致性算法", "icon": "", "tags": ["算法", "分布式"], "favorite": false}
       ]
     },
     {
       "category": "Python 开发",
       "icon": "🐍",
       "items": [
-        {
-          "name": "Python Cheatsheet",
-          "url": "https://gto76.github.io/python-cheatsheet/",
-          "desc": "Python 速查表",
-          "icon": "",
-          "tags": ["Python", "速查"],
-          "favorite": false
-        },
-        {
-          "name": "Python Tutor",
-          "url": "https://pythontutor.com/",
-          "desc": "Python 可视化学习",
-          "icon": "",
-          "tags": ["Python", "可视化"],
-          "favorite": false
-        },
-        {
-          "name": "Python 100 Days",
-          "url": "https://github.com/jackfrued/Python-100-Days",
-          "desc": "Python 百日学习",
-          "icon": "",
-          "tags": ["Python", "教程"],
-          "favorite": false
-        },
-        {
-          "name": "Pandas",
-          "url": "https://pandas.pydata.org/",
-          "desc": "Pandas 数据分析",
-          "icon": "",
-          "tags": ["Python", "数据"],
-          "favorite": false
-        },
-        {
-          "name": "PyGWalker GitHub",
-          "url": "https://github.com/Kanaries/pygwalker",
-          "desc": "PyGWalker GitHub",
-          "icon": "",
-          "tags": ["Python", "可视化"],
-          "favorite": false
-        }
+        {"name": "Python Cheatsheet", "url": "https://gto76.github.io/python-cheatsheet/", "desc": "Python 速查表", "icon": "", "tags": ["Python", "速查"], "favorite": false},
+        {"name": "Python Tutor", "url": "https://pythontutor.com/", "desc": "Python 可视化学习", "icon": "", "tags": ["Python", "可视化"], "favorite": false},
+        {"name": "Python 100 Days", "url": "https://github.com/jackfrued/Python-100-Days", "desc": "Python 百日学习", "icon": "", "tags": ["Python", "教程"], "favorite": false},
+        {"name": "Pandas", "url": "https://pandas.pydata.org/", "desc": "Pandas 数据分析", "icon": "", "tags": ["Python", "数据"], "favorite": false},
+        {"name": "PyGWalker GitHub", "url": "https://github.com/Kanaries/pygwalker", "desc": "PyGWalker GitHub", "icon": "", "tags": ["Python", "可视化"], "favorite": false}
       ]
     },
     {
-      "category": "综合资源",
-      "icon": "🌐",
+      "category": "实用工具",
+      "icon": "🔧",
       "items": [
-        {
-          "name": "Product Hunt",
-          "url": "https://www.producthunt.com/",
-          "desc": "发现新产品",
-          "icon": "",
-          "tags": ["产品", "发现"],
-          "favorite": true
-        },
-        {
-          "name": "YouTube",
-          "url": "https://www.youtube.com/",
-          "desc": "视频平台",
-          "icon": "",
-          "tags": ["视频"],
-          "favorite": false
-        },
-        {
-          "name": "ArXiv",
-          "url": "https://arxiv.org/",
-          "desc": "学术论文预印本",
-          "icon": "",
-          "tags": ["论文", "学术"],
-          "favorite": false
-        },
-        {
-          "name": "Juejin",
-          "url": "https://juejin.cn/",
-          "desc": "稀土掘金技术社区",
-          "icon": "",
-          "tags": ["技术", "社区"],
-          "favorite": false
-        },
-        {
-          "name": "Jianshu",
-          "url": "https://www.jianshu.com/",
-          "desc": "简书写作平台",
-          "icon": "",
-          "tags": ["写作"],
-          "favorite": false
-        },
-        {
-          "name": "CSDN",
-          "url": "https://blog.csdn.net/",
-          "desc": "CSDN 技术博客",
-          "icon": "",
-          "tags": ["技术", "博客"],
-          "favorite": false
-        },
-        {
-          "name": "Zhihu",
-          "url": "https://www.zhihu.com/",
-          "desc": "知乎问答社区",
-          "icon": "",
-          "tags": ["社区", "问答"],
-          "favorite": false
-        },
-        {
-          "name": "Linux Do",
-          "url": "https://linux.do/",
-          "desc": "Linux 中文社区",
-          "icon": "",
-          "tags": ["Linux", "社区"],
-          "favorite": false
-        },
-        {
-          "name": "DuckDuckGo",
-          "url": "https://duckduckgo.com/",
-          "desc": "隐私搜索引擎",
-          "icon": "",
-          "tags": ["搜索", "隐私"],
-          "favorite": false
-        },
-        {
-          "name": "GitHub 中文",
-          "url": "https://github.com/GrowingGit/GitHub-Chinese-Top-Charts",
-          "desc": "GitHub 中文排行榜",
-          "icon": "",
-          "tags": ["GitHub", "中文"],
-          "favorite": false
-        },
-        {
-          "name": "Evanli GitHub Ranking",
-          "url": "https://evanli.github.io/Github-Ranking/",
-          "desc": "GitHub 排行榜",
-          "icon": "",
-          "tags": ["GitHub", "排行"],
-          "favorite": false
-        },
-        {
-          "name": "Bilibili",
-          "url": "https://www.bilibili.com/",
-          "desc": "B 站视频平台",
-          "icon": "",
-          "tags": ["视频"],
-          "favorite": false
-        },
-        {
-          "name": "Flowus",
-          "url": "https://flowus.cn/spectred/",
-          "desc": "Flowus 文档",
-          "icon": "",
-          "tags": ["文档"],
-          "favorite": false
-        },
-        {
-          "name": "Feishu Wiki",
-          "url": "https://jl85zhw0f1.feishu.cn/wiki/",
-          "desc": "飞书知识库",
-          "icon": "",
-          "tags": ["文档"],
-          "favorite": false
-        },
-        {
-          "name": "AWS Console",
-          "url": "https://us-east-2.console.aws.amazon.com/console/home",
-          "desc": "AWS 控制台",
-          "icon": "",
-          "tags": ["云", "AWS"],
-          "favorite": false
-        },
-        {
-          "name": "火山引擎",
-          "url": "https://console.volcengine.com/home",
-          "desc": "字节云控制台",
-          "icon": "",
-          "tags": ["云", "字节"],
-          "favorite": false
-        },
-        {
-          "name": "Archive.org",
-          "url": "https://archive.org/",
-          "desc": "互联网档案馆",
-          "icon": "",
-          "tags": ["资源", "档案"],
-          "favorite": false
-        },
-        {
-          "name": "WeChat Search",
-          "url": "https://cilisousuo.com/",
-          "desc": "微信文章搜索",
-          "icon": "",
-          "tags": ["搜索", "微信"],
-          "favorite": false
-        },
-        {
-          "name": "HaoWeiChi",
-          "url": "https://www.haoweichi.com/",
-          "desc": "AI 搜索引擎",
-          "icon": "",
-          "tags": ["AI", "搜索"],
-          "favorite": false
-        }
+        {"name": "ProcessOn", "url": "https://www.processon.com/", "desc": "在线流程图", "icon": "", "tags": ["工具", "图表"], "favorite": true},
+        {"name": "Context7", "url": "https://context7.com/", "desc": "代码文档查询", "icon": "", "tags": ["文档", "开发"], "favorite": true},
+        {"name": "Carbon", "url": "https://carbon.now.sh/", "desc": "代码截图美化", "icon": "", "tags": ["工具", "代码"], "favorite": false},
+        {"name": "SM.MS", "url": "https://smms.app/", "desc": "图床服务", "icon": "", "tags": ["工具", "图片"], "favorite": false},
+        {"name": "Convertio", "url": "https://convertio.co/zh/azw3-epub/", "desc": "文件格式转换", "icon": "", "tags": ["工具", "转换"], "favorite": false},
+        {"name": "PDF2MD", "url": "https://pdf2md.morethan.io/", "desc": "PDF 转 Markdown", "icon": "", "tags": ["工具", "PDF"], "favorite": false},
+        {"name": "JSON Crack", "url": "https://jsoncrack.com/", "desc": "JSON 可视化", "icon": "", "tags": ["工具", "JSON"], "favorite": false},
+        {"name": "ToDiagram", "url": "https://todiagram.com/editor", "desc": "文本转流程图", "icon": "", "tags": ["工具", "图表"], "favorite": false},
+        {"name": "Mermaid Chart", "url": "https://www.mermaidchart.com/", "desc": "Mermaid 图表编辑", "icon": "", "tags": ["工具", "图表"], "favorite": false},
+        {"name": "WebSequenceDiagrams", "url": "https://www.websequencediagrams.com/", "desc": "时序图生成", "icon": "", "tags": ["工具", "图表"], "favorite": false},
+        {"name": "PyPI", "url": "https://pypi.org/", "desc": "Python 包索引", "icon": "", "tags": ["Python", "包"], "favorite": false},
+        {"name": "Transform Tools", "url": "https://transform.tools/", "desc": "代码转换工具", "icon": "", "tags": ["工具", "代码"], "favorite": false},
+        {"name": "阿里云盘", "url": "https://www.aliyundrive.com/", "desc": "阿里云网盘", "icon": "", "tags": ["工具", "网盘"], "favorite": false},
+        {"name": "HTTP Status", "url": "https://httpstatuses.com/", "desc": "HTTP 状态码", "icon": "", "tags": ["HTTP", "状态码"], "favorite": false}
+      ]
+    },
+    {
+      "category": "学习平台",
+      "icon": "🎓",
+      "items": [
+        {"name": "极客时间", "url": "https://time.geekbang.org/", "desc": "技术学习平台", "icon": "", "tags": ["学习", "技术"], "favorite": true},
+        {"name": "力扣", "url": "https://leetcode-cn.com/", "desc": "LeetCode 中文", "icon": "", "tags": ["算法", "刷题"], "favorite": true},
+        {"name": "Labuladong", "url": "https://labuladong.gitee.io/algo/", "desc": "算法刷题指南", "icon": "", "tags": ["算法", "教程"], "favorite": true},
+        {"name": "Roadmap.sh", "url": "https://roadmap.sh/", "desc": "技术学习路线图", "icon": "", "tags": ["学习", "路线"], "favorite": true},
+        {"name": "Algs4 Princeton", "url": "https://algs4.cs.princeton.edu/10fundamentals/", "desc": "算法 4 教程", "icon": "", "tags": ["算法", "教程"], "favorite": false},
+        {"name": "Halfrost LeetCode", "url": "https://books.halfrost.com/leetcode/", "desc": "LeetCode 题解", "icon": "", "tags": ["算法", "题解"], "favorite": false},
+        {"name": "The Algorithms Java", "url": "https://github.com/TheAlgorithms/Java", "desc": "Java 算法实现", "icon": "", "tags": ["算法", "Java"], "favorite": false},
+        {"name": "Wolfram MathWorld", "url": "http://mathworld.wolfram.com/", "desc": "数学世界", "icon": "", "tags": ["数学"], "favorite": false},
+        {"name": "良许学习网", "url": "https://learn.lianglianglee.com/", "desc": "Linux 学习资料", "icon": "", "tags": ["Linux", "教程"], "favorite": false},
+        {"name": "CodeCrafters", "url": "https://codecrafters.io/", "desc": "编程挑战平台", "icon": "", "tags": ["编程", "挑战"], "favorite": false},
+        {"name": "30 Seconds of Code", "url": "https://www.30secondsofcode.org/", "desc": "代码片段学习", "icon": "", "tags": ["代码", "片段"], "favorite": false},
+        {"name": "Tech Interview Handbook", "url": "https://github.com/yangshun/tech-interview-handbook", "desc": "技术面试手册", "icon": "", "tags": ["面试"], "favorite": false},
+        {"name": "Free Programming Books", "url": "https://github.com/EbookFoundation/free-programming-books", "desc": "免费编程书籍", "icon": "", "tags": ["书籍", "免费"], "favorite": false},
+        {"name": "App Ideas", "url": "https://github.com/florinpop17/app-ideas", "desc": "练手项目想法", "icon": "", "tags": ["项目", "想法"], "favorite": false},
+        {"name": "Public APIs", "url": "https://github.com/public-apis/public-apis", "desc": "公共 API 列表", "icon": "", "tags": ["API", "列表"], "favorite": false},
+        {"name": "HowToCook", "url": "https://github.com/Anduin2017/HowToCook", "desc": "程序员做饭指南", "icon": "", "tags": ["生活", "做饭"], "favorite": false},
+        {"name": "Awesome Database Learning", "url": "https://github.com/pingcap/awesome-database-learning", "desc": "数据库学习资源", "icon": "", "tags": ["数据库", "学习"], "favorite": false},
+        {"name": "IT eBooks", "url": "https://it-ebooks.info/", "desc": "IT 电子书", "icon": "", "tags": ["书籍", "IT"], "favorite": false},
+        {"name": "Sci-Hub", "url": "https://www.sci-hub.pub/", "desc": "学术论文下载", "icon": "", "tags": ["论文", "学术"], "favorite": false}
+      ]
+    },
+    {
+      "category": "资源发现",
+      "icon": "🔍",
+      "items": [
+        {"name": "Product Hunt", "url": "https://www.producthunt.com/", "desc": "发现新产品和科技趋势", "icon": "", "tags": ["产品", "发现"], "favorite": true},
+        {"name": "Hunt0", "url": "https://hunt0.com/", "desc": "产品发现社区", "icon": "", "tags": ["产品", "发现"], "favorite": false},
+        {"name": "Stack Overflow", "url": "https://stackoverflow.com/", "desc": "开发者问答社区", "icon": "", "tags": ["问答", "学习"], "favorite": false},
+        {"name": "MDN Web Docs", "url": "https://developer.mozilla.org/", "desc": "Web 开发技术权威文档", "icon": "", "tags": ["文档", "学习"], "favorite": false}
+      ]
+    },
+    {
+      "category": "GitHub 项目",
+      "icon": "🐙",
+      "items": [
+        {"name": "MyTube", "url": "https://github.com/franklioxygen/MyTube", "desc": "开源 YouTube 替代客户端", "icon": "", "tags": ["GitHub", "视频", "开源"], "favorite": false},
+        {"name": "TrendRadar", "url": "https://github.com/sansan0/TrendRadar", "desc": "GitHub 趋势雷达", "icon": "", "tags": ["GitHub", "趋势", "工具"], "favorite": false}
+      ]
+    },
+    {
+      "category": "国产 AI 平台",
+      "icon": "🇨🇳",
+      "items": [
+        {"name": "智谱 AI", "url": "https://bigmodel.cn/", "desc": "清华系 AI 大模型服务", "icon": "", "tags": ["AI", "大模型", "国产"], "favorite": false},
+        {"name": "MiniMax", "url": "https://www.minimax.io/", "desc": "中国 AI 大模型平台", "icon": "", "tags": ["AI", "大模型", "国产"], "favorite": false},
+        {"name": "Chroma", "url": "https://www.trychroma.com/", "desc": "AI 向量数据库", "icon": "", "tags": ["AI", "数据库", "向量"], "favorite": false},
+        {"name": "Models.dev", "url": "https://models.dev/", "desc": "AI 模型发现与比较", "icon": "", "tags": ["AI", "模型"], "favorite": false},
+        {"name": "Zread", "url": "https://zread.ai/", "desc": "AI 阅读助手", "icon": "", "tags": ["AI", "阅读"], "favorite": false},
+        {"name": "MinerU", "url": "https://mineru.net/", "desc": "文档智能解析工具", "icon": "", "tags": ["文档", "解析", "工具"], "favorite": false},
+        {"name": "SkillsMP", "url": "https://skillsmp.com/", "desc": "技能管理与展示平台", "icon": "", "tags": ["技能", "学习"], "favorite": false}
       ]
     }
   ]
