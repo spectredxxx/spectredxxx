@@ -389,6 +389,14 @@
           "favorite": false
         },
         {
+          "name": "MCP World",
+          "url": "https://www.mcpworld.com/",
+          "desc": "MCP World is a community-driven platform for MCP servers and clients.",
+          "icon": "",
+          "tags": ["工具", "MCP"],
+          "favorite": false
+        },
+        {
           "name": "OpenHands",
           "url": "https://github.com/All-Hands-AI/OpenHands",
           "desc": "🙌 OpenHands: AI-Driven Development. Contribute to OpenHands/OpenHands development by creating an account on GitHub.",
@@ -1000,6 +1008,14 @@
           "desc": "Models.dev is a comprehensive open-source database of AI model specifications, pricing, and features.",
           "icon": "",
           "tags": ["AI", "模型"],
+          "favorite": false
+        },
+        {
+          "name": "Hugo",
+          "url": "https://gohugo.io/",
+          "desc": "The world’s fastest framework for building websites",
+          "icon": "",
+          "tags": ["websites"],
           "favorite": false
         }
       ]
